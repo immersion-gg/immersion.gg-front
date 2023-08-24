@@ -1,0 +1,31 @@
+.match-list-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.match-list-page-iframe {
+  width: 1119px;
+  height: 715px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.match-list-page-side {
+  flex: 0 0 auto;
+  width: 360px;
+  height: 416px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+}
+.match-list-page-section {
+  flex: 0 0 auto;
+  width: 768px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}

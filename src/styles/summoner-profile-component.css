@@ -1,0 +1,362 @@
+.summoner-profile-component-divcontentheader {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.summoner-profile-component-divcssiswinf {
+  width: 1920px;
+  display: flex;
+  padding: 0 825px 0 420px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.summoner-profile-component-pseudo {
+  top: 0px;
+  left: 510px;
+  width: 900px;
+  height: 273px;
+  opacity: 0.40;
+  position: absolute;
+}
+.summoner-profile-component-divheaderprofileinfo {
+  width: 675px;
+  height: 228px;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.summoner-profile-component-divprofileicon {
+  gap: -10px;
+  top: 42px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.summoner-profile-component-profile-icon5212jpg {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+.summoner-profile-component-summonerlevel {
+  display: flex;
+  padding: 0 7.029998779296875px 0 8px;
+  align-items: flex-start;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: rgba(32, 45, 55, 1);
+}
+.summoner-profile-component-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.summoner-profile-component-divinfo {
+  top: 10px;
+  left: 124px;
+  width: 541px;
+  height: 202px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.summoner-profile-component-list {
+  gap: 4px;
+  top: 7px;
+  left: 0px;
+  width: 155px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.summoner-profile-component-item {
+  display: flex;
+  padding: 0 4px;
+  align-items: flex-start;
+  border-radius: 2px;
+  background-color: rgba(235, 238, 241, 1);
+}
+.summoner-profile-component-div {
+  display: flex;
+  padding: 0 0.3300018310546875px 0 0;
+  align-items: flex-start;
+}
+.summoner-profile-component-text02 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 18px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.summoner-profile-component-text03 {
+  font-weight: 700;
+}
+.summoner-profile-component-item1 {
+  display: flex;
+  padding: 0 4px;
+  align-items: flex-start;
+  border-radius: 2px;
+  background-color: rgba(235, 238, 241, 1);
+}
+.summoner-profile-component-div1 {
+  display: flex;
+  padding: 0 0.3300018310546875px 0 0;
+  align-items: flex-start;
+}
+.summoner-profile-component-text05 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 18px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.summoner-profile-component-text06 {
+  font-weight: 700;
+}
+.summoner-profile-component-divname {
+  gap: 7.8000030517578125px;
+  top: 31px;
+  left: 0px;
+  width: 541px;
+  height: 32px;
+  display: flex;
+  padding: 0 433px 0 0;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+.summoner-profile-component-heading1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.summoner-profile-component-text08 {
+  color: rgba(32, 45, 55, 1);
+  width: 72px;
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.summoner-profile-component-iconbookmarksvg {
+  width: 24px;
+  height: 24px;
+}
+.summoner-profile-component-link {
+  gap: 8px;
+  top: 72px;
+  left: 0px;
+  width: 322px;
+  display: flex;
+  padding: 6px 9px;
+  position: absolute;
+  align-items: center;
+  border-color: rgba(219, 224, 228, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.summoner-profile-component-riotlogomarkcircleoffwhite2xpng {
+  width: 16px;
+  height: 16px;
+}
+.summoner-profile-component-span {
+  display: flex;
+  align-items: flex-start;
+}
+.summoner-profile-component-text10 {
+  color: rgba(32, 45, 55, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.summoner-profile-component-iconarrowrightsvg {
+  width: 20px;
+  height: 20px;
+}
+.summoner-profile-component-button {
+  left: 0px;
+  width: 94px;
+  bottom: 33px;
+  height: 40px;
+  display: flex;
+  padding: 12px 13.44000244140625px 12px 14px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(235, 238, 241, 1);
+}
+.summoner-profile-component-text12 {
+  color: rgba(195, 203, 209, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.summoner-profile-component-text14 {
+  left: 0px;
+  color: rgba(154, 164, 175, 1);
+  bottom: 5px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.summoner-profile-component-navbar {
+  width: 1920px;
+  display: flex;
+  padding: 5px 420px 4px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.summoner-profile-component-nav-list {
+  width: 1080px;
+  height: 36px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.summoner-profile-component-nav-total {
+  top: 0px;
+  left: 0px;
+  width: 96px;
+  display: flex;
+  padding: 0 4px 0 0;
+  position: absolute;
+  align-items: flex-start;
+}
+.summoner-profile-component-text-wrapper {
+  width: 101px;
+  height: 36px;
+  display: flex;
+  padding: 0 15.449996948242188px 0 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(236, 242, 255, 1);
+}
+.summoner-profile-component-text16 {
+  color: rgb(65, 113, 214);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.summoner-profile-component-nav-champion {
+  top: 0px;
+  left: 96.44999694824219px;
+  width: 107px;
+  display: flex;
+  padding: 0 19.889999389648438px 0 16px;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: center;
+}
+.summoner-profile-component-text17 {
+  color: rgb(32, 45, 55);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.summoner-profile-component-nav-ingame {
+  top: 0px;
+  left: 203.33999633789062px;
+  width: 118px;
+  height: 36px;
+  display: flex;
+  padding: 0 16.360000610351562px 0 15px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+.summoner-profile-component-text18 {
+  color: rgb(0, 163, 153);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.summoner-profile-component-root-class-name {
+  align-self: flex-start;
+}
+

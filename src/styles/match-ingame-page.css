@@ -1,0 +1,3920 @@
+.match-ingame-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.match-ingame-page-divcontentcontainermargin {
+  width: 1920px;
+  height: auto;
+  display: flex;
+  padding: 8px 420px 0;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.match-ingame-page-divcss1m2ho5a {
+  width: 1080px;
+  display: flex;
+  padding: 1px 0 0.0000152587890625px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  border-radius: 4px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-divcss1gnz0la {
+  gap: 675.6900024414062px;
+  width: 1080px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.match-ingame-page-div {
+  width: 229.5px;
+  height: 16px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.match-ingame-page-text {
+  color: rgba(32, 45, 55, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-spanmap {
+  top: 2px;
+  left: 86.72000122070312px;
+  width: 97px;
+  height: 14px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(195, 203, 209, 1);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+}
+.match-ingame-page-text002 {
+  left: 9px;
+  color: rgba(32, 45, 55, 1);
+  width: 88px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-pseudo {
+  top: 3px;
+  left: 191.63999938964844px;
+  width: 1px;
+  height: 12px;
+  position: absolute;
+}
+.match-ingame-page-text004 {
+  top: 2px;
+  left: 199.63999938964844px;
+  color: rgba(32, 45, 55, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-div01 {
+  gap: 7.6949920654296875px;
+  display: flex;
+  align-items: flex-start;
+}
+.match-ingame-page-button {
+  gap: 3.895000457763672px;
+  height: 28px;
+  display: flex;
+  padding: 1px 13px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(232, 64, 87, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: rgba(232, 64, 87, 1);
+}
+.match-ingame-page-iconrecordwhitesvg {
+  width: 16px;
+  height: 16px;
+}
+.match-ingame-page-text006 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-button01 {
+  height: 28px;
+  display: flex;
+  padding: 6px 9.510002136230469px 6px 9.709999084472656px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(83, 131, 232, 1);
+}
+.match-ingame-page-text008 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14.399999618530273px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-table {
+  width: 1080px;
+  height: 221.8000030517578px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-header-row {
+  top: -0.5px;
+  left: 2px;
+  width: 1078px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-cell {
+  display: flex;
+  padding: 9.5px 6.029998779296875px 8.5px 12px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text010 {
+  color: rgba(65, 113, 214, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-cell01 {
+  gap: 2.44000244140625px;
+  display: flex;
+  padding: 9.5px 209.15000915527344px 8.5px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text012 {
+  color: rgba(65, 113, 214, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-strong {
+  display: flex;
+  padding: 0 2.3600006103515625px 0 0;
+  align-items: flex-start;
+}
+.match-ingame-page-text014 {
+  color: rgba(65, 113, 214, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-cell02 {
+  display: flex;
+  padding: 9.5px 64.40998840332031px 8.5px 64.61001586914062px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text016 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-cell03 {
+  display: flex;
+  padding: 9.5px 18.40499496459961px 8.5px 18.59500503540039px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text018 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-cell04 {
+  display: flex;
+  padding: 9.5px 20.900012969970703px 8.5px 21.099987030029297px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text020 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-cell05 {
+  display: flex;
+  padding: 9.5px 12.409985542297363px 8.5px 12.590014457702637px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text022 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-body {
+  top: 31.5px;
+  left: 2px;
+  width: 1078px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.match-ingame-page-row {
+  display: flex;
+  align-items: flex-start;
+}
+.match-ingame-page-data {
+  display: flex;
+  padding: 3.130000114440918px 4px 3.140000343322754px 8px;
+  align-items: flex-start;
+  border-style: solid;
+  border-width: 1px 0 0 4px;
+}
+.match-ingame-page-link {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: flex-end;
+}
+.match-ingame-page-aatroxpng {
+  width: 32px;
+  height: 32px;
+}
+.match-ingame-page-data001 {
+  gap: 1.9999990463256836px;
+  display: flex;
+  padding: 3.130000114440918px 1px 3.1400012969970703px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-summoner-teleportpng {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-summoner-flashpng {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-data002 {
+  gap: 1.9999990463256836px;
+  display: flex;
+  padding: 3.130000114440918px 0.029999732971191406px 3.1400012969970703px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-image8010png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-image8400png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-data003 {
+  width: 318.95001220703125px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-link01 {
+  top: 5.269999980926514px;
+  left: 7px;
+  width: 94px;
+  display: flex;
+  padding: 0 0 0 7px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text024 {
+  color: rgba(32, 45, 55, 1);
+  width: 87px;
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divsummonerlevel {
+  top: 20.770000457763672px;
+  left: 0px;
+  width: 319px;
+  display: flex;
+  padding: 0 257.95001220703125px 1px 14px;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text026 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data004 {
+  width: 32px;
+  height: 38px;
+  border-color: rgba(235, 238, 241, 1);
+}
+.match-ingame-page-data005 {
+  display: flex;
+  padding: 12.630000114440918px 85.02000427246094px 12.640000343322754px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-text028 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data006 {
+  display: flex;
+  padding: 12.630000114440918px 59.904998779296875px 12.640000343322754px 60.095001220703125px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-text030 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data007 {
+  display: flex;
+  padding: 10.130000114440918px 47.904998779296875px 12.140000343322754px 48.095001220703125px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-text031 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data008 {
+  display: flex;
+  padding: 10.130000114440918px 47.904998779296875px 12.140000343322754px 48.095001220703125px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-text032 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data009 {
+  display: flex;
+  padding: 9.130000114440918px 20px 9.140000343322754px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data010 {
+  display: flex;
+  padding: 5.130000114440918px 12px 5.140000343322754px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-button02 {
+  gap: 52px;
+  width: 124px;
+  height: 28px;
+  display: flex;
+  padding: 6px 9px 6px 13px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(219, 224, 228, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text033 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-iconarrowdownsvg {
+  width: 16px;
+  height: 16px;
+}
+.match-ingame-page-row01 {
+  display: flex;
+  align-items: flex-start;
+}
+.match-ingame-page-data011 {
+  display: flex;
+  padding: 3px 4px 3px 8px;
+  align-items: flex-start;
+  border-style: solid;
+  border-width: 1px 0 0 4px;
+}
+.match-ingame-page-link02 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: flex-end;
+}
+.match-ingame-page-brandpng {
+  width: 32px;
+  height: 32px;
+}
+.match-ingame-page-data012 {
+  gap: 2px;
+  display: flex;
+  padding: 3px 1px 3px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-summoner-smitepng {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-summoner-flashpng01 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-data013 {
+  gap: 2px;
+  display: flex;
+  padding: 3px 0.029999732971191406px 3px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-image8128png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-image8200png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-data014 {
+  width: 318.95001220703125px;
+  height: 38px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-link03 {
+  top: 6.260000228881836px;
+  left: 7px;
+  width: 65px;
+  display: flex;
+  padding: 0 0 0 7px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text035 {
+  color: rgba(32, 45, 55, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divsummonerlevel01 {
+  top: 20.5px;
+  left: 0px;
+  width: 319px;
+  display: flex;
+  padding: 0 257.95001220703125px 1px 14px;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text037 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data015 {
+  display: flex;
+  padding: 9px 6px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng01 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data016 {
+  display: flex;
+  padding: 12.5px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-div02 {
+  display: flex;
+  padding: 0 64.02000427246094px 0 0;
+  align-items: flex-start;
+}
+.match-ingame-page-text039 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data017 {
+  width: 124px;
+  height: 38px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-strong01 {
+  top: 7.5px;
+  left: 22.55500030517578px;
+  width: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text041 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text043 {
+  top: 7.5px;
+  left: 42.97502136230469px;
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divcssvjqyvi {
+  top: 24.5px;
+  left: 12px;
+  width: 100px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 224, 228, 1);
+}
+.match-ingame-page-divwin {
+  top: 0px;
+  left: 0px;
+  width: 46px;
+  height: 6px;
+  position: absolute;
+}
+.match-ingame-page-data018 {
+  gap: -1px;
+  display: flex;
+  padding: 2px 0 3px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divwinratio {
+  display: flex;
+  padding: 0 42.400001525878906px 1px 42.599998474121094px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text045 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-div03 {
+  display: flex;
+  padding: 0 24.90999984741211px 1px 25.09000015258789px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text047 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data019 {
+  gap: -1px;
+  display: flex;
+  padding: 3px 0 4px;
+  align-items: center;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divcssyfl437 {
+  display: flex;
+  padding: 0 26.404998779296875px 0 26.595001220703125px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text049 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text050 {
+  font-weight: 700;
+}
+.match-ingame-page-text052 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data020 {
+  display: flex;
+  padding: 9px 20px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng02 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data021 {
+  display: flex;
+  padding: 5px 12px 5px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-button03 {
+  gap: 52px;
+  width: 124px;
+  height: 28px;
+  display: flex;
+  padding: 6px 9px 6px 13px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(219, 224, 228, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text054 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-iconarrowdownsvg01 {
+  width: 16px;
+  height: 16px;
+}
+.match-ingame-page-row02 {
+  display: flex;
+  align-items: flex-start;
+}
+.match-ingame-page-data022 {
+  display: flex;
+  padding: 3.119999885559082px 4px 3.15000057220459px 8px;
+  align-items: flex-start;
+  border-style: solid;
+  border-width: 1px 0 0 4px;
+}
+.match-ingame-page-link04 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: flex-end;
+}
+.match-ingame-page-oriannapng {
+  width: 32px;
+  height: 32px;
+}
+.match-ingame-page-data023 {
+  gap: 2.0000009536743164px;
+  display: flex;
+  padding: 3.119999885559082px 1px 3.1499996185302734px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-summoner-flashpng02 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-summoner-teleportpng1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-data024 {
+  gap: 2.0000009536743164px;
+  display: flex;
+  padding: 3.119999885559082px 0.029999732971191406px 3.1499996185302734px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-image8214png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-image8300png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-data025 {
+  width: 318.95001220703125px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-link05 {
+  top: 5.260000228881836px;
+  left: 7px;
+  width: 43px;
+  display: flex;
+  padding: 0 0 0 7px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text056 {
+  color: rgba(32, 45, 55, 1);
+  width: 36px;
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divsummonerlevel02 {
+  top: 20.760000228881836px;
+  left: 0px;
+  width: 319px;
+  display: flex;
+  padding: 0 257.95001220703125px 1px 14px;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text058 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data026 {
+  display: flex;
+  padding: 9.119999885559082px 6px 9.15000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-silverpng {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data027 {
+  display: flex;
+  padding: 12.619999885559082px 0 12.65000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-div04 {
+  display: flex;
+  padding: 0 60.02000427246094px 0 0;
+  align-items: flex-start;
+}
+.match-ingame-page-text060 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data028 {
+  width: 124px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-strong02 {
+  top: 7.619999885559082px;
+  left: 22.55500030517578px;
+  width: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text062 {
+  color: rgba(0, 163, 153, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text064 {
+  top: 7.619999885559082px;
+  left: 42.97502136230469px;
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divcss1tij1h9 {
+  top: 24.6200008392334px;
+  left: 12px;
+  width: 100px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 224, 228, 1);
+}
+.match-ingame-page-divwin1 {
+  top: 0px;
+  left: 0px;
+  width: 57px;
+  height: 6px;
+  position: absolute;
+}
+.match-ingame-page-data029 {
+  gap: -0.9999990463256836px;
+  display: flex;
+  padding: 2.119999885559082px 0 3.1499996185302734px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divwinratio1 {
+  display: flex;
+  padding: 0 42.400001525878906px 1px 42.599998474121094px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text066 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-div05 {
+  display: flex;
+  padding: 0 24.90999984741211px 1px 25.09000015258789px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text068 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data030 {
+  gap: -0.9999990463256836px;
+  display: flex;
+  padding: 3.119999885559082px 0 4.149999618530273px;
+  align-items: center;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divcss1cm7jv5 {
+  display: flex;
+  padding: 0 26.404998779296875px 0 26.595001220703125px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text070 {
+  color: rgba(0, 187, 163, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text071 {
+  font-weight: 700;
+}
+.match-ingame-page-text073 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data031 {
+  display: flex;
+  padding: 9.119999885559082px 20px 9.15000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-silverpng1 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data032 {
+  display: flex;
+  padding: 5.119999885559082px 12px 5.15000057220459px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-button04 {
+  gap: 52px;
+  width: 124px;
+  height: 28px;
+  display: flex;
+  padding: 6px 9px 6px 13px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(219, 224, 228, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text075 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-iconarrowdownsvg02 {
+  width: 16px;
+  height: 16px;
+}
+.match-ingame-page-row03 {
+  display: flex;
+  align-items: flex-start;
+}
+.match-ingame-page-data033 {
+  display: flex;
+  padding: 3.130000114440918px 4px 3.140000343322754px 8px;
+  align-items: flex-start;
+  border-style: solid;
+  border-width: 1px 0 0 4px;
+}
+.match-ingame-page-link06 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: flex-end;
+}
+.match-ingame-page-kaisapng {
+  width: 32px;
+  height: 32px;
+}
+.match-ingame-page-data034 {
+  gap: 1.9999990463256836px;
+  display: flex;
+  padding: 3.130000114440918px 1px 3.1400012969970703px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-summoner-healpng {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-summoner-flashpng03 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-data035 {
+  gap: 1.9999990463256836px;
+  display: flex;
+  padding: 3.130000114440918px 0.029999732971191406px 3.1400012969970703px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-image9923png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-image8300png1 {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-data036 {
+  width: 318.95001220703125px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-link07 {
+  top: 5.269999980926514px;
+  left: 7px;
+  width: 67px;
+  display: flex;
+  padding: 0 0 0 7px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text077 {
+  color: rgba(65, 113, 214, 1);
+  width: 60px;
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divsummonerlevel03 {
+  top: 20.770000457763672px;
+  left: 0px;
+  width: 319px;
+  display: flex;
+  padding: 0 257.95001220703125px 1px 14px;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text079 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data037 {
+  display: flex;
+  padding: 9.130000114440918px 6px 9.140000343322754px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-platinumpng {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data038 {
+  display: flex;
+  padding: 12.630000114440918px 0 12.640000343322754px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-div06 {
+  display: flex;
+  padding: 0 43.02000427246094px 0 0;
+  align-items: flex-start;
+}
+.match-ingame-page-text081 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data039 {
+  width: 124px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-strong03 {
+  top: 7.630000114440918px;
+  left: 22.55500030517578px;
+  width: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text083 {
+  color: rgba(0, 163, 153, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text085 {
+  top: 7.630000114440918px;
+  left: 42.97502136230469px;
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divcss191g27q {
+  top: 24.6299991607666px;
+  left: 12px;
+  width: 100px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 224, 228, 1);
+}
+.match-ingame-page-divwin2 {
+  top: 0px;
+  left: 0px;
+  width: 50px;
+  height: 6px;
+  position: absolute;
+}
+.match-ingame-page-data040 {
+  gap: -1.0000009536743164px;
+  display: flex;
+  padding: 2.130000114440918px 0 3.1400012969970703px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divwinratio2 {
+  display: flex;
+  padding: 0 39.394996643066406px 1px 39.605003356933594px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text087 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-div07 {
+  display: flex;
+  padding: 0 21.899999618530273px 1px 22.100000381469727px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text089 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data041 {
+  gap: -1.0000009536743164px;
+  display: flex;
+  padding: 3.130000114440918px 0 4.14000129699707px;
+  align-items: center;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divcss1cm7jv51 {
+  display: flex;
+  padding: 0 26.404998779296875px 0 26.595001220703125px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text091 {
+  color: rgba(0, 187, 163, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text092 {
+  font-weight: 700;
+}
+.match-ingame-page-text094 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data042 {
+  display: flex;
+  padding: 9.130000114440918px 20px 9.140000343322754px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng03 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data043 {
+  display: flex;
+  padding: 5.130000114440918px 12px 5.140000343322754px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-button05 {
+  gap: 52px;
+  width: 124px;
+  height: 28px;
+  display: flex;
+  padding: 6px 9px 6px 13px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(219, 224, 228, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text096 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-iconarrowdownsvg03 {
+  width: 16px;
+  height: 16px;
+}
+.match-ingame-page-row04 {
+  display: flex;
+  align-items: flex-start;
+}
+.match-ingame-page-data044 {
+  display: flex;
+  padding: 3px 4px 2.5px 8px;
+  align-items: flex-start;
+  border-style: solid;
+  border-width: 1px 0 0 4px;
+}
+.match-ingame-page-link08 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: flex-end;
+}
+.match-ingame-page-leonapng {
+  width: 32px;
+  height: 32px;
+}
+.match-ingame-page-data045 {
+  gap: 2px;
+  display: flex;
+  padding: 3px 1px 2.5px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-summoner-flashpng04 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-summoner-dotpng {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-data046 {
+  gap: 2px;
+  display: flex;
+  padding: 3px 0.029999732971191406px 2.5px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-image8439png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-image8300png2 {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-data047 {
+  width: 318.95001220703125px;
+  height: 37.5px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-link09 {
+  top: 6.260000228881836px;
+  left: 7px;
+  width: 37px;
+  display: flex;
+  padding: 0 0 0 7px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text098 {
+  color: rgba(32, 45, 55, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divsummonerlevel04 {
+  top: 20.5px;
+  left: 0px;
+  width: 319px;
+  display: flex;
+  padding: 0 257.95001220703125px 1px 14px;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text100 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data048 {
+  width: 32px;
+  height: 37px;
+  border-color: rgba(235, 238, 241, 1);
+}
+.match-ingame-page-data049 {
+  display: flex;
+  padding: 12.5px 85.02000427246094px 12px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-text102 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data050 {
+  display: flex;
+  padding: 12.5px 59.904998779296875px 12px 60.095001220703125px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-text104 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data051 {
+  gap: -1px;
+  display: flex;
+  padding: 2px 0 2.5px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divwinratio3 {
+  display: flex;
+  padding: 0 35.89999771118164px 1px 36.10000228881836px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text105 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-div08 {
+  display: flex;
+  padding: 0 24.90999984741211px 1px 25.09000015258789px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text107 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data052 {
+  gap: -1px;
+  display: flex;
+  padding: 3px 0 3.5px;
+  align-items: center;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divcss1cm7jv52 {
+  display: flex;
+  padding: 0 26.404998779296875px 0 26.595001220703125px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text109 {
+  color: rgba(0, 187, 163, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text110 {
+  font-weight: 700;
+}
+.match-ingame-page-text112 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data053 {
+  display: flex;
+  padding: 9px 20px 8.5px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng04 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data054 {
+  display: flex;
+  padding: 5px 12px 4.5px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-button06 {
+  gap: 52px;
+  width: 124px;
+  height: 28px;
+  display: flex;
+  padding: 6px 9px 6px 13px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(219, 224, 228, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text114 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-iconarrowdownsvg04 {
+  width: 16px;
+  height: 16px;
+}
+.match-ingame-page-table1 {
+  width: 1080px;
+  height: 222.3300018310547px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-header-row1 {
+  top: -0.5px;
+  left: 2px;
+  width: 1078px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-cell06 {
+  display: flex;
+  padding: 9.5px 9px 8.5px 12px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text116 {
+  color: rgba(211, 26, 69, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-cell07 {
+  gap: 2.44000244140625px;
+  display: flex;
+  padding: 9.5px 209.1800079345703px 8.5px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text118 {
+  color: rgba(211, 26, 69, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-strong04 {
+  display: flex;
+  padding: 0 2.3600006103515625px 0 0;
+  align-items: flex-start;
+}
+.match-ingame-page-text120 {
+  color: rgba(211, 26, 69, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-cell08 {
+  display: flex;
+  padding: 9.5px 64.40998840332031px 8.5px 64.61001586914062px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text122 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-cell09 {
+  display: flex;
+  padding: 9.5px 18.40499496459961px 8.5px 18.59500503540039px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text124 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-cell10 {
+  display: flex;
+  padding: 9.5px 20.900012969970703px 8.5px 21.099987030029297px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text126 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-cell11 {
+  display: flex;
+  padding: 9.5px 12.409985542297363px 8.5px 12.590014457702637px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text128 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-body1 {
+  top: 31.5px;
+  left: 2px;
+  width: 1078px;
+  display: flex;
+  padding: 0 0 0.000003814697265625px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.match-ingame-page-row05 {
+  display: flex;
+  align-items: flex-start;
+}
+.match-ingame-page-data055 {
+  display: flex;
+  padding: 3.119999885559082px 4px 3.15000057220459px 8px;
+  align-items: flex-start;
+  border-style: solid;
+  border-width: 1px 0 0 4px;
+}
+.match-ingame-page-link10 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: flex-end;
+}
+.match-ingame-page-quinnpng {
+  width: 32px;
+  height: 32px;
+}
+.match-ingame-page-data056 {
+  gap: 2.0000009536743164px;
+  display: flex;
+  padding: 3.119999885559082px 1px 3.1499996185302734px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-summoner-flashpng05 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-summoner-dotpng1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-data057 {
+  gap: 2.0000009536743164px;
+  display: flex;
+  padding: 3.119999885559082px 0 3.1499996185302734px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-image8021png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-image8200png1 {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-data058 {
+  width: 318.9800109863281px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-link11 {
+  top: 5.260000228881836px;
+  left: 7px;
+  width: 55px;
+  display: flex;
+  padding: 0 0 0 7px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text130 {
+  color: rgba(32, 45, 55, 1);
+  width: 48px;
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divsummonerlevel05 {
+  top: 20.760000228881836px;
+  left: 0px;
+  width: 319px;
+  display: flex;
+  padding: 0 257.9800109863281px 1px 14px;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text132 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data059 {
+  display: flex;
+  padding: 9.119999885559082px 6px 9.15000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng05 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data060 {
+  display: flex;
+  padding: 12.619999885559082px 0 12.65000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-div09 {
+  display: flex;
+  padding: 0 64.02000427246094px 0 0;
+  align-items: flex-start;
+}
+.match-ingame-page-text134 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data061 {
+  width: 124px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-strong05 {
+  top: 7.619999885559082px;
+  left: 22.55500030517578px;
+  width: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text136 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text138 {
+  top: 7.619999885559082px;
+  left: 42.97502136230469px;
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divcss147ujy8 {
+  top: 24.6200008392334px;
+  left: 12px;
+  width: 100px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 224, 228, 1);
+}
+.match-ingame-page-divwin3 {
+  top: 0px;
+  left: 0px;
+  width: 48px;
+  height: 6px;
+  position: absolute;
+}
+.match-ingame-page-data062 {
+  gap: -0.9999990463256836px;
+  display: flex;
+  padding: 2.119999885559082px 0 3.1499996185302734px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divwinratio4 {
+  display: flex;
+  padding: 0 39.394996643066406px 1px 39.605003356933594px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text140 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-div10 {
+  display: flex;
+  padding: 0 24.90999984741211px 1px 25.09000015258789px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text142 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data063 {
+  gap: -0.9999990463256836px;
+  display: flex;
+  padding: 3.119999885559082px 0 4.149999618530273px;
+  align-items: center;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divcssyfl4371 {
+  display: flex;
+  padding: 0 29.90999984741211px 0 30.09000015258789px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text144 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text145 {
+  font-weight: 700;
+}
+.match-ingame-page-text147 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data064 {
+  display: flex;
+  padding: 9.119999885559082px 20px 9.15000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng06 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data065 {
+  display: flex;
+  padding: 5.119999885559082px 12px 5.15000057220459px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-button07 {
+  gap: 52px;
+  width: 124px;
+  height: 28px;
+  display: flex;
+  padding: 6px 9px 6px 13px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(219, 224, 228, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text149 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-iconarrowdownsvg05 {
+  width: 16px;
+  height: 16px;
+}
+.match-ingame-page-row06 {
+  display: flex;
+  align-items: flex-start;
+}
+.match-ingame-page-data066 {
+  display: flex;
+  padding: 3.130000114440918px 4px 3.140000343322754px 8px;
+  align-items: flex-start;
+  border-style: solid;
+  border-width: 1px 0 0 4px;
+}
+.match-ingame-page-link12 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: flex-end;
+}
+.match-ingame-page-rumblepng {
+  width: 32px;
+  height: 32px;
+}
+.match-ingame-page-data067 {
+  gap: 1.9999990463256836px;
+  display: flex;
+  padding: 3.130000114440918px 1px 3.1400012969970703px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-summoner-smitepng1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-summoner-flashpng06 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-data068 {
+  gap: 1.9999990463256836px;
+  display: flex;
+  padding: 3.130000114440918px 0 3.1400012969970703px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-image8128png1 {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-image8300png3 {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-data069 {
+  width: 318.9800109863281px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-link13 {
+  top: 4.769999980926514px;
+  left: 7px;
+  width: 44px;
+  display: flex;
+  padding: 1px 6.299999237060547px 2px 7px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text151 {
+  color: rgba(32, 45, 55, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divsummonerlevel06 {
+  top: 20.770000457763672px;
+  left: 0px;
+  width: 319px;
+  display: flex;
+  padding: 0 257.9800109863281px 1px 14px;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text153 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data070 {
+  display: flex;
+  padding: 9.130000114440918px 6px 9.140000343322754px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-platinumpng1 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data071 {
+  display: flex;
+  padding: 12.630000114440918px 0 12.640000343322754px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-div11 {
+  display: flex;
+  padding: 0 43.02000427246094px 0 0;
+  align-items: flex-start;
+}
+.match-ingame-page-text155 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data072 {
+  width: 124px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-strong06 {
+  top: 7.630000114440918px;
+  left: 22.55500030517578px;
+  width: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text157 {
+  color: rgba(0, 163, 153, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text159 {
+  top: 7.630000114440918px;
+  left: 42.97502136230469px;
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divcss1tij1h91 {
+  top: 24.6299991607666px;
+  left: 12px;
+  width: 100px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 224, 228, 1);
+}
+.match-ingame-page-divwin4 {
+  top: 0px;
+  left: 0px;
+  width: 57px;
+  height: 6px;
+  position: absolute;
+}
+.match-ingame-page-data073 {
+  gap: -1.0000009536743164px;
+  display: flex;
+  padding: 2.130000114440918px 0 3.1400012969970703px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divwinratio5 {
+  display: flex;
+  padding: 0 39.394996643066406px 1px 39.605003356933594px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text161 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-div12 {
+  display: flex;
+  padding: 0 21.899999618530273px 1px 22.100000381469727px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text163 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data074 {
+  gap: -1.0000009536743164px;
+  display: flex;
+  padding: 3.130000114440918px 0 4.14000129699707px;
+  align-items: center;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divcss1cm7jv53 {
+  display: flex;
+  padding: 0 26.404998779296875px 0 26.595001220703125px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text165 {
+  color: rgba(0, 187, 163, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text166 {
+  font-weight: 700;
+}
+.match-ingame-page-text168 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data075 {
+  display: flex;
+  padding: 9.130000114440918px 20px 9.140000343322754px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng07 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data076 {
+  display: flex;
+  padding: 5.130000114440918px 12px 5.140000343322754px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-button08 {
+  gap: 52px;
+  width: 124px;
+  height: 28px;
+  display: flex;
+  padding: 6px 9px 6px 13px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(219, 224, 228, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text170 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-iconarrowdownsvg06 {
+  width: 16px;
+  height: 16px;
+}
+.match-ingame-page-row07 {
+  display: flex;
+  align-items: flex-start;
+}
+.match-ingame-page-data077 {
+  display: flex;
+  padding: 3.119999885559082px 4px 3.15000057220459px 8px;
+  align-items: flex-start;
+  border-style: solid;
+  border-width: 1px 0 0 4px;
+}
+.match-ingame-page-link14 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: flex-end;
+}
+.match-ingame-page-malphitepng {
+  width: 32px;
+  height: 32px;
+}
+.match-ingame-page-data078 {
+  gap: 2.0000009536743164px;
+  display: flex;
+  padding: 3.119999885559082px 1px 3.1499996185302734px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-summoner-teleportpng2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-summoner-flashpng07 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-data079 {
+  gap: 2.0000009536743164px;
+  display: flex;
+  padding: 3.119999885559082px 0 3.1499996185302734px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-image8229png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-image8100png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-data080 {
+  width: 318.9800109863281px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-link15 {
+  top: 5.260000228881836px;
+  left: 7px;
+  width: 67px;
+  display: flex;
+  padding: 0 0 0 7px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text172 {
+  color: rgba(32, 45, 55, 1);
+  width: 60px;
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divsummonerlevel07 {
+  top: 20.760000228881836px;
+  left: 0px;
+  width: 319px;
+  display: flex;
+  padding: 0 257.9800109863281px 1px 14px;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text174 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data081 {
+  display: flex;
+  padding: 9.119999885559082px 6px 9.15000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng08 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data082 {
+  display: flex;
+  padding: 12.619999885559082px 0 12.65000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-div13 {
+  display: flex;
+  padding: 0 64.02000427246094px 0 0;
+  align-items: flex-start;
+}
+.match-ingame-page-text176 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data083 {
+  width: 124px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-strong07 {
+  top: 7.619999885559082px;
+  left: 22.55500030517578px;
+  width: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text178 {
+  color: rgba(0, 147, 255, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text180 {
+  top: 7.619999885559082px;
+  left: 42.97502136230469px;
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divcssn3le9h {
+  top: 24.6200008392334px;
+  left: 12px;
+  width: 100px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 224, 228, 1);
+}
+.match-ingame-page-divwin5 {
+  top: 0px;
+  left: 0px;
+  width: 63px;
+  height: 6px;
+  position: absolute;
+}
+.match-ingame-page-data084 {
+  display: flex;
+  padding: 10.119999885559082px 47.904998779296875px 12.15000057220459px 48.095001220703125px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-text182 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data085 {
+  display: flex;
+  padding: 10.119999885559082px 47.904998779296875px 12.15000057220459px 48.095001220703125px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-text183 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data086 {
+  display: flex;
+  padding: 9.119999885559082px 20px 9.15000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng09 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data087 {
+  display: flex;
+  padding: 5.119999885559082px 12px 5.15000057220459px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-button09 {
+  gap: 52px;
+  width: 124px;
+  height: 28px;
+  display: flex;
+  padding: 6px 9px 6px 13px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(219, 224, 228, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text184 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-iconarrowdownsvg07 {
+  width: 16px;
+  height: 16px;
+}
+.match-ingame-page-row08 {
+  display: flex;
+  align-items: flex-start;
+}
+.match-ingame-page-data088 {
+  display: flex;
+  padding: 3.130000114440918px 4px 3.140000343322754px 8px;
+  align-items: flex-start;
+  border-style: solid;
+  border-width: 1px 0 0 4px;
+}
+.match-ingame-page-link16 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: flex-end;
+}
+.match-ingame-page-samirapng {
+  width: 32px;
+  height: 32px;
+}
+.match-ingame-page-data089 {
+  gap: 1.9999990463256836px;
+  display: flex;
+  padding: 3.130000114440918px 1px 3.1400012969970703px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-summoner-boostpng {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-summoner-flashpng08 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-data090 {
+  gap: 1.9999990463256836px;
+  display: flex;
+  padding: 3.130000114440918px 0 3.1400012969970703px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-image8010png1 {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-image8100png1 {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-data091 {
+  width: 318.9800109863281px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-link17 {
+  top: -2.2300000190734863px;
+  left: 7px;
+  width: 91px;
+  display: flex;
+  padding: 0 0 0 7px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text186 {
+  color: rgba(32, 45, 55, 1);
+  width: 84px;
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divsummonerlevel08 {
+  top: 20.770000457763672px;
+  left: 0px;
+  width: 319px;
+  display: flex;
+  padding: 0 257.9800109863281px 1px 14px;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text188 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data092 {
+  display: flex;
+  padding: 9.130000114440918px 6px 9.140000343322754px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng10 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data093 {
+  display: flex;
+  padding: 12.630000114440918px 0 12.640000343322754px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-div14 {
+  display: flex;
+  padding: 0 64.02000427246094px 0 0;
+  align-items: flex-start;
+}
+.match-ingame-page-text190 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data094 {
+  width: 124px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-strong08 {
+  top: 7.630000114440918px;
+  left: 22.55500030517578px;
+  width: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text192 {
+  color: rgba(0, 163, 153, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text194 {
+  top: 7.630000114440918px;
+  left: 42.97502136230469px;
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divcss191g27q1 {
+  top: 24.6299991607666px;
+  left: 12px;
+  width: 100px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 224, 228, 1);
+}
+.match-ingame-page-divwin6 {
+  top: 0px;
+  left: 0px;
+  width: 50px;
+  height: 6px;
+  position: absolute;
+}
+.match-ingame-page-data095 {
+  gap: -1.0000009536743164px;
+  display: flex;
+  padding: 2.130000114440918px 0 3.1400012969970703px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divwinratio6 {
+  display: flex;
+  padding: 0 39.394996643066406px 1px 39.605003356933594px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text196 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-div15 {
+  display: flex;
+  padding: 0 24.90999984741211px 1px 25.09000015258789px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text198 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data096 {
+  gap: -1.0000009536743164px;
+  display: flex;
+  padding: 3.130000114440918px 0 4.14000129699707px;
+  align-items: center;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divcssyfl4372 {
+  display: flex;
+  padding: 0 29.90999984741211px 0 30.09000015258789px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text200 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text201 {
+  font-weight: 700;
+}
+.match-ingame-page-text203 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data097 {
+  display: flex;
+  padding: 9.130000114440918px 20px 9.140000343322754px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng11 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data098 {
+  display: flex;
+  padding: 5.130000114440918px 12px 5.140000343322754px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-button10 {
+  gap: 52px;
+  width: 124px;
+  height: 28px;
+  display: flex;
+  padding: 6px 9px 6px 13px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(219, 224, 228, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text205 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-iconarrowdownsvg08 {
+  width: 16px;
+  height: 16px;
+}
+.match-ingame-page-row09 {
+  display: flex;
+  align-items: flex-start;
+}
+.match-ingame-page-data099 {
+  display: flex;
+  padding: 3.119999885559082px 4px 2.65000057220459px 8px;
+  align-items: flex-start;
+  border-style: solid;
+  border-width: 1px 0 0 4px;
+}
+.match-ingame-page-link18 {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: flex-end;
+}
+.match-ingame-page-rellpng {
+  width: 32px;
+  height: 32px;
+}
+.match-ingame-page-data100 {
+  gap: 2.0000009536743164px;
+  display: flex;
+  padding: 3.119999885559082px 1px 2.6499996185302734px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-summoner-flashpng09 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-summoner-dotpng2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.match-ingame-page-data101 {
+  gap: 2.0000009536743164px;
+  display: flex;
+  padding: 3.119999885559082px 0 2.6499996185302734px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-image8439png1 {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-image8000png {
+  width: 15px;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 7.5px;
+}
+.match-ingame-page-data102 {
+  width: 318.9800109863281px;
+  height: 37.77000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-link19 {
+  top: 5.269999980926514px;
+  left: 7px;
+  width: 103px;
+  display: flex;
+  padding: 0 0 0 7px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text207 {
+  color: rgba(32, 45, 55, 1);
+  width: 96px;
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divsummonerlevel09 {
+  top: 20.770000457763672px;
+  left: 0px;
+  width: 319px;
+  display: flex;
+  padding: 0 257.9800109863281px 1px 14px;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text209 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data103 {
+  display: flex;
+  padding: 9.119999885559082px 6px 8.65000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-goldpng12 {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data104 {
+  display: flex;
+  padding: 12.619999885559082px 0 12.15000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-div16 {
+  display: flex;
+  padding: 0 64.02000427246094px 0 0;
+  align-items: flex-start;
+}
+.match-ingame-page-text211 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data105 {
+  width: 124px;
+  height: 37.77000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-strong09 {
+  top: 7.619999885559082px;
+  left: 22.55500030517578px;
+  width: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.match-ingame-page-text213 {
+  color: rgba(0, 147, 255, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text215 {
+  top: 7.619999885559082px;
+  left: 42.97502136230469px;
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-divcss1dd4bjc {
+  top: 24.6200008392334px;
+  left: 12px;
+  width: 100px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 224, 228, 1);
+}
+.match-ingame-page-divwin7 {
+  top: 0px;
+  left: 0px;
+  width: 66px;
+  height: 6px;
+  position: absolute;
+}
+.match-ingame-page-data106 {
+  gap: -0.9999990463256836px;
+  display: flex;
+  padding: 2.119999885559082px 0 2.6499996185302734px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divwinratio7 {
+  display: flex;
+  padding: 0 39.394996643066406px 1px 39.605003356933594px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text217 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-div17 {
+  display: flex;
+  padding: 0 21.899999618530273px 1px 22.100000381469727px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text219 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data107 {
+  gap: -0.9999990463256836px;
+  display: flex;
+  padding: 3.119999885559082px 0 3.6499996185302734px;
+  align-items: center;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.match-ingame-page-divcss1cm7jv54 {
+  display: flex;
+  padding: 0 29.90999984741211px 0 30.09000015258789px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.match-ingame-page-text221 {
+  color: rgba(0, 187, 163, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-text222 {
+  font-weight: 700;
+}
+.match-ingame-page-text224 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-data108 {
+  display: flex;
+  padding: 9.119999885559082px 20px 8.65000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.match-ingame-page-bronzepng {
+  width: 20px;
+  height: 20px;
+}
+.match-ingame-page-data109 {
+  display: flex;
+  padding: 5.119999885559082px 12px 4.65000057220459px 0;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.match-ingame-page-button11 {
+  gap: 52px;
+  width: 124px;
+  height: 28px;
+  display: flex;
+  padding: 6px 9px 6px 13px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(219, 224, 228, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-page-text226 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-page-iconarrowdownsvg09 {
+  width: 16px;
+  height: 16px;
+}

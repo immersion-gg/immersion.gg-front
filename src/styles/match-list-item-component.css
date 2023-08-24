@@ -99,7 +99,7 @@
 }
 .match-list-item-component-divlength {
   display: flex;
-  padding: 0 61px 0 0;
+  padding: 0 10px 0 0;
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;
@@ -118,6 +118,7 @@
 }
 .match-list-item-component-divinfo {
   gap: 8px;
+  width: 300px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -238,7 +239,7 @@
 }
 .match-list-item-component-divkda1 {
   display: flex;
-  padding: 0 53px 1px 0;
+  padding: 0 10px 1px 0;
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;
@@ -552,6 +553,7 @@
 }
 .match-list-item-component-divparticipants {
   gap: 8px;
+  width: 260px;
   display: flex;
   align-items: flex-start;
 }
@@ -727,7 +729,7 @@
 }
 .match-list-item-component-item12 {
   gap: 4px;
-  width: 88px;
+  width: 140px;
   height: 18px;
   display: flex;
   padding: 0.5px 8px 0.5px 0;

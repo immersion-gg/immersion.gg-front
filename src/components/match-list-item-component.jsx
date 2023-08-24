@@ -5,6 +5,14 @@ import PropTypes from 'prop-types'
 import '../styles/match-list-item-component.css'
 
 const MatchListItemComponent = (props) => {
+  const { gameDuration, participants }  = props.match;
+  const summonerName = props.summonerName;
+
+  const target = participants.find(it=>it.summonerName === summonerName);
+  const gameTimes = gameDuration.split(":");
+  const winTeam = participants.filter(it=>it.win);
+  const loseTeam = participants.filter(it=>!it.win);
+  
   return (
     <div className={`match-list-item-component-item ${props.rootClassName} `}>
       <div className="match-list-item-component-divgamecontent">
@@ -28,12 +36,12 @@ const MatchListItemComponent = (props) => {
           </div>
           <div className="match-list-item-component-divresult">
             <span className="match-list-item-component-text04">
-              <span className="">Victory</span>
+              <span className="">{ target.win ? '승리' : '패배'}</span>
             </span>
           </div>
           <div className="match-list-item-component-divlength">
             <span className="match-list-item-component-text06">
-              <span className="">24m 10s</span>
+              <span className="">{`${gameTimes[0]}분 ${gameTimes[1]}초`}</span>
             </span>
           </div>
         </div>
@@ -42,26 +50,23 @@ const MatchListItemComponent = (props) => {
             <div className="match-list-item-component-divchampion">
               <div className="match-list-item-component-link">
                 <img
-                  alt={props.Ahripng_alt1}
-                  src={props.Ahripng_src1}
+                  src={target.championImageUrl}
                   className="match-list-item-component-ahripng"
                 />
                 <div className="match-list-item-component-spanchampionlevel">
                   <span className="match-list-item-component-text08">
-                    <span className="">15</span>
+                    <span className="">{target.championLevel}</span>
                   </span>
                 </div>
               </div>
               <div className="match-list-item-component-divspellsmargin">
                 <div className="match-list-item-component-divspells">
                   <img
-                    alt={props.SummonerTeleportpng_alt}
-                    src={props.SummonerTeleportpng_src}
+                    src={target.spellImageUrl1}
                     className="match-list-item-component-summoner-teleportpng"
                   />
                   <img
-                    alt={props.SummonerFlashpng_alt}
-                    src={props.SummonerFlashpng_src}
+                      src={target.spellImageUrl2}
                     className="match-list-item-component-summoner-flashpng"
                   />
                 </div>
@@ -70,14 +75,12 @@ const MatchListItemComponent = (props) => {
                 <div className="match-list-item-component-divrunes">
                   <div className="match-list-item-component-divrune">
                     <img
-                      alt={props.IMAGE8112png_alt}
-                      src={props.IMAGE8112png_src}
+                        src={target.perkImageUrl1}
                       className="match-list-item-component-image8112png"
                     />
                   </div>
                   <img
-                    alt={props.IMAGE8200png_alt}
-                    src={props.IMAGE8200png_src}
+                    src={target.perkImageUrl2}
                     className="match-list-item-component-image8200png"
                   />
                 </div>
@@ -87,7 +90,7 @@ const MatchListItemComponent = (props) => {
               <div className="match-list-item-component-divkda">
                 <div className="match-list-item-component-divkda1">
                   <span className="match-list-item-component-text10">
-                    <span className="match-list-item-component-text11">9</span>
+                    <span className="match-list-item-component-text11">{target.kill}</span>
                     <span className="match-list-item-component-text12">
                       {' '}
                       /
@@ -97,16 +100,16 @@ const MatchListItemComponent = (props) => {
                         }}
                       />
                     </span>
-                    <span className="match-list-item-component-text13">2</span>
+                    <span className="match-list-item-component-text13">{target.death}</span>
                     <span className="match-list-item-component-text14">
                       {' '}
-                      / 8
+                      / {target.assist}
                     </span>
                   </span>
                 </div>
                 <div className="match-list-item-component-divratio">
                   <span className="match-list-item-component-text15">
-                    <span className="">8.50:1 KDA</span>
+                    <span className="">{`${target.kda} KDA`}</span>
                   </span>
                 </div>
               </div>
@@ -117,22 +120,14 @@ const MatchListItemComponent = (props) => {
                 src={props.pseudo_src}
                 className="match-list-item-component-pseudo"
               />
-              <div className="match-list-item-component-div2">
-                <span className="match-list-item-component-text17">
-                  <span className="">P/Kill 65%</span>
-                </span>
-              </div>
-              <span className="match-list-item-component-text19">
-                <span className="">Control Ward 1</span>
-              </span>
               <div className="match-list-item-component-div3">
                 <span className="match-list-item-component-text21">
-                  <span className="">CS 203 (8.4)</span>
+                  <span className="">CS {`${target.cs}`}</span>
                 </span>
               </div>
               <div className="match-list-item-component-div4">
                 <span className="match-list-item-component-text23">
-                  <span className="">gold 1</span>
+                  <span className="">gold 1</span> { /* TODO */}
                 </span>
               </div>
             </div>
@@ -142,16 +137,14 @@ const MatchListItemComponent = (props) => {
               <div className="match-list-item-component-list">
                 <div className="match-list-item-component-item01">
                   <img
-                    alt={props.IMAGE3089png_alt}
-                    src={props.IMAGE3089png_src}
+                    src={target.itemImageUrl1}
                     className="match-list-item-component-image3089png"
                   />
                 </div>
                 <div className="match-list-item-component-itemmargin">
                   <div className="match-list-item-component-item02">
                     <img
-                      alt={props.IMAGE3020png_alt}
-                      src={props.IMAGE3020png_src}
+                        src={target.itemImageUrl2}
                       className="match-list-item-component-image3020png"
                     />
                   </div>
@@ -159,8 +152,7 @@ const MatchListItemComponent = (props) => {
                 <div className="match-list-item-component-itemmargin1">
                   <div className="match-list-item-component-item03">
                     <img
-                      alt={props.IMAGE6656png_alt}
-                      src={props.IMAGE6656png_src}
+                        src={target.itemImageUrl3}
                       className="match-list-item-component-image6656png"
                     />
                   </div>
@@ -168,8 +160,7 @@ const MatchListItemComponent = (props) => {
                 <div className="match-list-item-component-itemmargin2">
                   <div className="match-list-item-component-item04">
                     <img
-                      alt={props.IMAGE4645png_alt}
-                      src={props.IMAGE4645png_src}
+                        src={target.itemImageUrl14}
                       className="match-list-item-component-image4645png"
                     />
                   </div>
@@ -177,16 +168,14 @@ const MatchListItemComponent = (props) => {
                 <div className="match-list-item-component-itemmargin3">
                   <div className="match-list-item-component-item05">
                     <img
-                      alt={props.IMAGE1052png_alt}
-                      src={props.IMAGE1052png_src}
+                          src={target.itemImageUrl5}
                       className="match-list-item-component-image1052png"
                     />
                   </div>
                 </div>
                 <div className="match-list-item-component-itemmargin4">
                   <img
-                    alt={props.Item_alt}
-                    src={props.Item_src}
+                      src={target.itemImageUrl16}
                     className="match-list-item-component-item06"
                   />
                 </div>
@@ -210,128 +199,34 @@ const MatchListItemComponent = (props) => {
         </div>
         <div className="match-list-item-component-divparticipants">
           <div className="match-list-item-component-list1">
-            <div className="match-list-item-component-item07">
-              <img
-                alt={props.Akalipng_alt}
-                src={props.Akalipng_src}
-                className="match-list-item-component-akalipng"
-              />
-              <div className="match-list-item-component-link01">
-                <span className="match-list-item-component-text27">
-                  <span className="">Ieejunyeo…</span>
+            {
+              loseTeam.map(it=><div key={it.summonerName} className="match-list-item-component-item12">
+                <img
+                    src={it.championImageUrl}
+                    className="match-list-item-component-shenpng"
+                />
+                <div className="match-list-item-component-link06">
+                <span className="match-list-item-component-text37">
+                  <span className="">{it.summonerName}</span>
                 </span>
-              </div>
-            </div>
-            <div className="match-list-item-component-item08">
-              <img
-                alt={props.Rammuspng_alt}
-                src={props.Rammuspng_src}
-                className="match-list-item-component-rammuspng"
-              />
-              <div className="match-list-item-component-link02">
-                <span className="match-list-item-component-text29">
-                  <span className="">봉봉 청포…</span>
-                </span>
-              </div>
-            </div>
-            <div className="match-list-item-component-item09">
-              <img
-                alt={props.Dianapng_alt}
-                src={props.Dianapng_src}
-                className="match-list-item-component-dianapng"
-              />
-              <div className="match-list-item-component-link03">
-                <span className="match-list-item-component-text31">
-                  <span className="">내가 탑갈…</span>
-                </span>
-              </div>
-            </div>
-            <div className="match-list-item-component-item10">
-              <img
-                alt={props.Ashepng_alt}
-                src={props.Ashepng_src}
-                className="match-list-item-component-ashepng"
-              />
-              <div className="match-list-item-component-link04">
-                <span className="match-list-item-component-text33">
-                  <span className="">국방부장…</span>
-                </span>
-              </div>
-            </div>
-            <div className="match-list-item-component-item11">
-              <img
-                alt={props.Lulupng_alt}
-                src={props.Lulupng_src}
-                className="match-list-item-component-lulupng"
-              />
-              <div className="match-list-item-component-link05">
-                <span className="match-list-item-component-text35">
-                  <span className="">기승이개…</span>
-                </span>
-              </div>
-            </div>
+                </div>
+              </div>)
+            }
           </div>
           <div className="match-list-item-component-list2">
-            <div className="match-list-item-component-item12">
-              <img
-                alt={props.Shenpng_alt}
-                src={props.Shenpng_src}
-                className="match-list-item-component-shenpng"
-              />
-              <div className="match-list-item-component-link06">
+            {
+              winTeam.map(it=><div key={it.summonerName} className="match-list-item-component-item12">
+                <img
+                    src={it.championImageUrl}
+                    className="match-list-item-component-shenpng"
+                />
+                <div className="match-list-item-component-link06">
                 <span className="match-list-item-component-text37">
-                  <span className="">포션 안사…</span>
+                  <span className="">{it.summonerName}</span>
                 </span>
-              </div>
-            </div>
-            <div className="match-list-item-component-item13">
-              <img
-                alt={props.MasterYipng_alt}
-                src={props.MasterYipng_src}
-                className="match-list-item-component-master-yipng"
-              />
-              <div className="match-list-item-component-link07">
-                <span className="match-list-item-component-text39">
-                  <span className="">Aim On D…</span>
-                </span>
-              </div>
-            </div>
-            <div className="match-list-item-component-item14">
-              <img
-                alt={props.Ahripng_alt}
-                src={props.Ahripng_src}
-                className="match-list-item-component-ahripng1"
-              />
-              <div className="match-list-item-component-link08">
-                <span className="match-list-item-component-text41">
-                  <span className="">김석균</span>
-                </span>
-              </div>
-            </div>
-            <div className="match-list-item-component-item15">
-              <img
-                alt={props.Zeripng_alt}
-                src={props.Zeripng_src}
-                className="match-list-item-component-zeripng"
-              />
-              <div className="match-list-item-component-link09">
-                <span className="match-list-item-component-text43">
-                  <span className="">병 인 지</span>
-                </span>
-              </div>
-            </div>
-            <div className="match-list-item-component-item16">
-              <img
-                alt={props.Leonapng_alt}
-                src={props.Leonapng_src}
-                className="match-list-item-component-leonapng"
-              />
-              <div className="match-list-item-component-link10">
-                <span className="match-list-item-component-text45">
-                  <span className="">삼대오백…</span>
-                </span>
-              </div>
-            </div>
+                </div>
+              </div>)
+            }
           </div>
         </div>
       </div>
@@ -408,6 +303,10 @@ MatchListItemComponent.defaultProps = {
 }
 
 MatchListItemComponent.propTypes = {
+  match: PropTypes.instanceOf,
+  summonerName: PropTypes.string,
+  // gameDuration: PropTypes.string,
+  // participants: PropTypes.string,
   Lulupng_src: PropTypes.string,
   pseudo_src: PropTypes.string,
   Akalipng_alt: PropTypes.string,

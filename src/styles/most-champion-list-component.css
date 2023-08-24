@@ -13,7 +13,7 @@
   border-width: 0 0 1px;
   justify-content: space-between;
 }
-.most-champion-list-component-item {
+.most-champion-item-selected {
   display: flex;
   padding: 6px 22.110002517700195px 6px 22.219999313354492px;
   align-self: flex-start;
@@ -22,7 +22,7 @@
   justify-content: center;
   background-color: rgba(236, 242, 255, 1);
 }
-.most-champion-list-component-text {
+.most-champion-text-selected {
   color: rgba(65, 113, 214, 1);
   height: auto;
   font-size: 14px;
@@ -35,7 +35,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.most-champion-list-component-item1 {
+.most-champion-item {
   display: flex;
   padding: 6px 14.360001564025879px 6px 12.970000267028809px;
   align-self: flex-start;
@@ -44,7 +44,7 @@
   justify-content: center;
   background-color: rgba(255, 255, 255, 1);
 }
-.most-champion-list-component-text2 {
+.most-champion-text {
   color: rgba(32, 45, 55, 1);
   height: auto;
   font-size: 14px;

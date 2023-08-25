@@ -1,17 +1,24 @@
 import React from 'react'
-
+import { useHistory } from "react-router-dom";
 import PropTypes from 'prop-types'
 
 import MostChampionListItemComponent from './most-champion-list-item-component'
 import '../styles/most-champion-list-component.css'
 
 const MostChampionListComponent = (props) => {
+
+let history = useHistory();
+
+  const GoChampionPage = () => {
+        history.push({pathname: `/champion-statistic-component`});
+  };
+
   return (
     <div className="most-champion-list-component-most-champion-component">
       <div className="most-champion-list-component-list">
         <div className="most-champion-list-component-item">
           <span className="most-champion-list-component-text">
-            <span>S2023 S2</span>
+            <button onClick={GoChampionPage}>S2023 S2</button>
           </span>
         </div>
         <div className="most-champion-list-component-item1">
@@ -31,17 +38,8 @@ const MostChampionListComponent = (props) => {
         <MostChampionListItemComponent></MostChampionListItemComponent>
         <MostChampionListItemComponent rootClassName="most-champion-list-item-component-root-class-name"></MostChampionListItemComponent>
         <MostChampionListItemComponent rootClassName="most-champion-list-item-component-root-class-name1"></MostChampionListItemComponent>
-        <div className="most-champion-list-component-link">
-          <span className="most-champion-list-component-text6">
-            <span>Show More+Past Seasons</span>
-          </span>
-          <img
-            alt={props.iconarrowrightsvg_alt}
-            src={props.iconarrowrightsvg_src}
-            className="most-champion-list-component-iconarrowrightsvg"
-          />
-        </div>
       </div>
+
     </div>
   )
 }
@@ -50,7 +48,8 @@ MostChampionListComponent.defaultProps = {
   LinkNasuspng_alt: 'LinkNasuspng1811',
   LinkNasuspng_src:
     'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/0ba68bfd-6a09-4105-9544-11a87d1ed900/4a2651ce-c9f7-46c9-a9f1-ad7f359e953e?org_if_sml=13071',
-  iconarrowrightsvg_src: '/external/iconarrowrightsvg1812-4nng.svg',
+  iconarrowrightsvg_src:
+    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/0ba68bfd-6a09-4105-9544-11a87d1ed900/21a42e4f-70db-4f06-b16e-fd2864520aa5?org_if_sml=1195',
   LinkJhinpng_alt: 'LinkJhinpng1811',
   LinkAhripng_alt: 'LinkAhripng1811',
   LinkAhripng_src:

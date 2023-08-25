@@ -5,6 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: #2e2e2e;
 }
 .match-list-page-iframe {
   width: 1119px;
@@ -23,8 +24,8 @@
 }
 .match-list-page-section {
   flex: 0 0 auto;
-  width: 768px;
-  height: 100%;
+  width: auto;
+  height: 698px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;

@@ -85,30 +85,3 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.most-champion-list-component-link {
-  gap: -1.0400009155273438px;
-  display: flex;
-  padding: 8px 84.02000427246094px 8px 84.0199966430664px;
-  align-self: flex-start;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(247, 247, 249, 1);
-}
-.most-champion-list-component-text6 {
-  color: rgba(117, 133, 146, 1);
-  height: auto;
-  font-size: 12px;
-  align-self: flex-start;
-  font-style: Regular;
-  text-align: center;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.most-champion-list-component-iconarrowrightsvg {
-  width: 24px;
-  height: 24px;
-  align-self: flex-start;
-}

@@ -44,14 +44,14 @@ const MostChampionListItemComponent = (props) => {
 
 MostChampionListItemComponent.defaultProps = {
   LinkKaisapng_alt: 'LinkKaisapng1811',
-  LinkKaisapng_src: '/external/linkkaisapng1811-3194-200h.png',
   rootClassName: '',
+  LinkKaisapng_src: '/external/linkkaisapng1811-3194-200h.png',
 }
 
 MostChampionListItemComponent.propTypes = {
   LinkKaisapng_alt: PropTypes.string,
-  LinkKaisapng_src: PropTypes.string,
   rootClassName: PropTypes.string,
+  LinkKaisapng_src: PropTypes.string,
 }
 
 export default MostChampionListItemComponent

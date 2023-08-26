@@ -1,4 +1,3 @@
-import React from 'react'
 import { useHistory } from "react-router-dom";
 import { Helmet } from 'react-helmet'
 
@@ -7,7 +6,7 @@ import IngameComponent from '../components/ingame-component'
 import '../styles/match-ingame-page.css'
 import '../styles/champion-statistic-component.css'
 
-const MatchIngamePage = (props) => {
+const MatchIngamePage = () => {
 
 let history = useHistory();
 

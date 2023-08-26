@@ -1,15 +1,16 @@
-import React, { useState } from 'react'
-import { useLocation, useHistory } from "react-router-dom";
+import { useState } from "react";
+
+import { useHistory } from "react-router-dom";
 import { Helmet } from 'react-helmet'
 
 import SummonerProfileComponent from '../components/summoner-profile-component'
 import MostChampionListComponent from '../components/most-champion-list-component'
-import MathListItemComponent from '../components/math-list-item-component'
+import MatchListItemComponent from '../components/match-list-item-component'
 import MatchDetail from '../components/real-match-detail-component'
 import '../styles/match-list-page.css'
 import '../styles/champion-statistic-component.css'
 
-const MatchListPage = (props) => {
+const MatchListPage = () => {
 
 let history = useHistory();
 
@@ -17,7 +18,6 @@ const [showDetail, setShowDetail] = useState(false);
 
 const openDetail =() => {
     setShowDetail(!showDetail);
-    console.log("hello")
   };
 
 
@@ -51,7 +51,7 @@ const openDetail =() => {
         </div>
         <div className="match-list-page-section">
          <div onClick ={openDetail} >
-          <MathListItemComponent rootClassName="math-list-item-component-root-class-name6"></MathListItemComponent>
+          <MatchListItemComponent rootClassName="math-list-item-component-root-class-name6"></MatchListItemComponent>
           </div>
           <div>
             {showDetail && <MatchDetail />}

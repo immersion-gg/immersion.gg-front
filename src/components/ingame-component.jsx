@@ -1,5 +1,3 @@
-import React from 'react'
-
 import PropTypes from 'prop-types'
 
 import '../styles/ingame-component.css'
@@ -43,7 +41,7 @@ const IngameComponent = (props) => {
               </span>
               <div className="ingame-component-strong">
                 <span className="ingame-component-text008">
-                  <span className="">Master </span>
+                  <span className="">Master</span>
                 </span>
               </div>
             </div>
@@ -636,7 +634,7 @@ const IngameComponent = (props) => {
               </span>
               <div className="ingame-component-strong06">
                 <span className="ingame-component-text117">
-                  <span className="">Master </span>
+                  <span className="">Master</span>
                 </span>
               </div>
             </div>

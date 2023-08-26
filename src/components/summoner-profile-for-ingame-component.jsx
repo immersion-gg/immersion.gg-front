@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { useLocation, useHistory } from "react-router-dom";
 
 import PropTypes from 'prop-types'

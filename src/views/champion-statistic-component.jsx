@@ -1,4 +1,3 @@
-import React from 'react'
 import { useHistory } from "react-router-dom";
 import { Helmet } from 'react-helmet'
 
@@ -7,7 +6,7 @@ import EachChampionStatic from '../components/each-champion-static'
 import ChampionStaticWithWinPerComponent from '../components/champion-static-with-win-per-component'
 import '../styles/champion-statistic-component.css'
 
-const ChampionStatisticComponent = (props) => {
+const ChampionStatisticComponent = () => {
 
 let history = useHistory();
 

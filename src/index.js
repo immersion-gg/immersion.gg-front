@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
-import NotFound from './views/not-found'
 import MatchListPage from './views/match-list-page'
 import MatchIngamePage from './views/match-ingame-page'
 import ChampionStatisticComponent from './views/champion-statistic-component'

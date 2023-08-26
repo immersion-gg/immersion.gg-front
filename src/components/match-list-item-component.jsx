@@ -1,95 +1,93 @@
-import React, { useState } from 'react';
-
 import PropTypes from 'prop-types'
 
-import '../styles/math-list-item-component.css'
+import '../styles/match-list-item-component.css'
 
-const MathListItemComponent = (props) => {
+const MatchListItemComponent = (props) => {
 
   return (
-    <div className={`math-list-item-component-item ${props.rootClassName} `}>
-      <div className="math-list-item-component-divgamecontent">
-        <div className="math-list-item-component-divgame">
-          <div className="math-list-item-component-divtype">
-            <span className="math-list-item-component-text">
+    <div className={`match-list-item-component-item ${props.rootClassName} `}>
+      <div className="match-list-item-component-divgamecontent">
+        <div className="match-list-item-component-divgame">
+          <div className="match-list-item-component-divtype">
+            <span className="match-list-item-component-text">
               <span className="">Flex 5:5 Rank</span>
             </span>
           </div>
-          <div className="math-list-item-component-div">
-            <span className="math-list-item-component-text02">
+          <div className="match-list-item-component-div">
+            <span className="match-list-item-component-text02">
               <span className="">11 days ago</span>
             </span>
           </div>
-          <div className="math-list-item-component-divbarmargin">
+          <div className="match-list-item-component-divbarmargin">
             <img
               alt={props.divbar_alt}
               src={props.divbar_src}
-              className="math-list-item-component-divbar"
+              className="match-list-item-component-divbar"
             />
           </div>
-          <div className="math-list-item-component-divresult">
-            <span className="math-list-item-component-text04">
+          <div className="match-list-item-component-divresult">
+            <span className="match-list-item-component-text04">
               <span className="">Victory</span>
             </span>
           </div>
-          <div className="math-list-item-component-divlength">
-            <span className="math-list-item-component-text06">
+          <div className="match-list-item-component-divlength">
+            <span className="match-list-item-component-text06">
               <span className="">24m 10s</span>
             </span>
           </div>
         </div>
-        <div className="math-list-item-component-divinfo">
-          <div className="math-list-item-component-div1">
-            <div className="math-list-item-component-divchampion">
-              <div className="math-list-item-component-link">
+        <div className="match-list-item-component-divinfo">
+          <div className="match-list-item-component-div1">
+            <div className="match-list-item-component-divchampion">
+              <div className="match-list-item-component-link">
                 <img
                   alt={props.Ahripng_alt1}
                   src={props.Ahripng_src1}
-                  className="math-list-item-component-ahripng"
+                  className="match-list-item-component-ahripng"
                 />
-                <div className="math-list-item-component-spanchampionlevel">
-                  <span className="math-list-item-component-text08">
+                <div className="match-list-item-component-spanchampionlevel">
+                  <span className="match-list-item-component-text08">
                     <span className="">15</span>
                   </span>
                 </div>
               </div>
-              <div className="math-list-item-component-divspellsmargin">
-                <div className="math-list-item-component-divspells">
+              <div className="match-list-item-component-divspellsmargin">
+                <div className="match-list-item-component-divspells">
                   <img
                     alt={props.SummonerTeleportpng_alt}
                     src={props.SummonerTeleportpng_src}
-                    className="math-list-item-component-summoner-teleportpng"
+                    className="match-list-item-component-summoner-teleportpng"
                   />
                   <img
                     alt={props.SummonerFlashpng_alt}
                     src={props.SummonerFlashpng_src}
-                    className="math-list-item-component-summoner-flashpng"
+                    className="match-list-item-component-summoner-flashpng"
                   />
                 </div>
               </div>
-              <div className="math-list-item-component-divrunesmargin">
-                <div className="math-list-item-component-divrunes">
-                  <div className="math-list-item-component-divrune">
+              <div className="match-list-item-component-divrunesmargin">
+                <div className="match-list-item-component-divrunes">
+                  <div className="match-list-item-component-divrune">
                     <img
                       alt={props.IMAGE8112png_alt}
                       src={props.IMAGE8112png_src}
-                      className="math-list-item-component-image8112png"
+                      className="match-list-item-component-image8112png"
                     />
                   </div>
                   <img
                     alt={props.IMAGE8200png_alt}
                     src={props.IMAGE8200png_src}
-                    className="math-list-item-component-image8200png"
+                    className="match-list-item-component-image8200png"
                   />
                 </div>
               </div>
             </div>
-            <div className="math-list-item-component-divkdamargin">
-              <div className="math-list-item-component-divkda">
-                <div className="math-list-item-component-divkda1">
-                  <span className="math-list-item-component-text10">
-                    <span className="math-list-item-component-text11">9</span>
-                    <span className="math-list-item-component-text12">
+            <div className="match-list-item-component-divkdamargin">
+              <div className="match-list-item-component-divkda">
+                <div className="match-list-item-component-divkda1">
+                  <span className="match-list-item-component-text10">
+                    <span className="match-list-item-component-text11">9</span>
+                    <span className="match-list-item-component-text12">
                       {' '}
                       /
                       <span
@@ -98,237 +96,237 @@ const MathListItemComponent = (props) => {
                         }}
                       />
                     </span>
-                    <span className="math-list-item-component-text13">2</span>
-                    <span className="math-list-item-component-text14">
+                    <span className="match-list-item-component-text13">2</span>
+                    <span className="match-list-item-component-text14">
                       {' '}
                       / 8
                     </span>
                   </span>
                 </div>
-                <div className="math-list-item-component-divratio">
-                  <span className="math-list-item-component-text15">
+                <div className="match-list-item-component-divratio">
+                  <span className="match-list-item-component-text15">
                     <span className="">8.50:1 KDA</span>
                   </span>
                 </div>
               </div>
             </div>
-            <div className="math-list-item-component-divstats">
+            <div className="match-list-item-component-divstats">
               <img
                 alt={props.pseudo_alt}
                 src={props.pseudo_src}
-                className="math-list-item-component-pseudo"
+                className="match-list-item-component-pseudo"
               />
-              <div className="math-list-item-component-div2">
-                <span className="math-list-item-component-text17">
+              <div className="match-list-item-component-div2">
+                <span className="match-list-item-component-text17">
                   <span className="">P/Kill 65%</span>
                 </span>
               </div>
-              <span className="math-list-item-component-text19">
+              <span className="match-list-item-component-text19">
                 <span className="">Control Ward 1</span>
               </span>
-              <div className="math-list-item-component-div3">
-                <span className="math-list-item-component-text21">
+              <div className="match-list-item-component-div3">
+                <span className="match-list-item-component-text21">
                   <span className="">CS 203 (8.4)</span>
                 </span>
               </div>
-              <div className="math-list-item-component-div4">
-                <span className="math-list-item-component-text23">
+              <div className="match-list-item-component-div4">
+                <span className="match-list-item-component-text23">
                   <span className="">gold 1</span>
                 </span>
               </div>
             </div>
           </div>
-          <div className="math-list-item-component-div5">
-            <div className="math-list-item-component-divitems">
-              <div className="math-list-item-component-list">
-                <div className="math-list-item-component-item01">
+          <div className="match-list-item-component-div5">
+            <div className="match-list-item-component-divitems">
+              <div className="match-list-item-component-list">
+                <div className="match-list-item-component-item01">
                   <img
                     alt={props.IMAGE3089png_alt}
                     src={props.IMAGE3089png_src}
-                    className="math-list-item-component-image3089png"
+                    className="match-list-item-component-image3089png"
                   />
                 </div>
-                <div className="math-list-item-component-itemmargin">
-                  <div className="math-list-item-component-item02">
+                <div className="match-list-item-component-itemmargin">
+                  <div className="match-list-item-component-item02">
                     <img
                       alt={props.IMAGE3020png_alt}
                       src={props.IMAGE3020png_src}
-                      className="math-list-item-component-image3020png"
+                      className="match-list-item-component-image3020png"
                     />
                   </div>
                 </div>
-                <div className="math-list-item-component-itemmargin1">
-                  <div className="math-list-item-component-item03">
+                <div className="match-list-item-component-itemmargin1">
+                  <div className="match-list-item-component-item03">
                     <img
                       alt={props.IMAGE6656png_alt}
                       src={props.IMAGE6656png_src}
-                      className="math-list-item-component-image6656png"
+                      className="match-list-item-component-image6656png"
                     />
                   </div>
                 </div>
-                <div className="math-list-item-component-itemmargin2">
-                  <div className="math-list-item-component-item04">
+                <div className="match-list-item-component-itemmargin2">
+                  <div className="match-list-item-component-item04">
                     <img
                       alt={props.IMAGE4645png_alt}
                       src={props.IMAGE4645png_src}
-                      className="math-list-item-component-image4645png"
+                      className="match-list-item-component-image4645png"
                     />
                   </div>
                 </div>
-                <div className="math-list-item-component-itemmargin3">
-                  <div className="math-list-item-component-item05">
+                <div className="match-list-item-component-itemmargin3">
+                  <div className="match-list-item-component-item05">
                     <img
                       alt={props.IMAGE1052png_alt}
                       src={props.IMAGE1052png_src}
-                      className="math-list-item-component-image1052png"
+                      className="match-list-item-component-image1052png"
                     />
                   </div>
                 </div>
-                <div className="math-list-item-component-itemmargin4">
+                <div className="match-list-item-component-itemmargin4">
                   <img
                     alt={props.Item_alt}
                     src={props.Item_src}
-                    className="math-list-item-component-item06"
+                    className="match-list-item-component-item06"
                   />
                 </div>
               </div>
-              <div className="math-list-item-component-divward">
+              <div className="match-list-item-component-divward">
                 <img
                   alt={props.IMAGE3340png_alt}
                   src={props.IMAGE3340png_src}
-                  className="math-list-item-component-image3340png"
+                  className="match-list-item-component-image3340png"
                 />
               </div>
             </div>
-            <button className="math-list-item-component-button">
-              <div className="math-list-item-component-divbadge">
-                <span className="math-list-item-component-text25">
+            <button className="match-list-item-component-button">
+              <div className="match-list-item-component-divbadge">
+                <span className="match-list-item-component-text25">
                   <span className="">MVP</span>
                 </span>
               </div>
             </button>
           </div>
         </div>
-        <div className="math-list-item-component-divparticipants">
-          <div className="math-list-item-component-list1">
-            <div className="math-list-item-component-item07">
+        <div className="match-list-item-component-divparticipants">
+          <div className="match-list-item-component-list1">
+            <div className="match-list-item-component-item07">
               <img
                 alt={props.Akalipng_alt}
                 src={props.Akalipng_src}
-                className="math-list-item-component-akalipng"
+                className="match-list-item-component-akalipng"
               />
-              <div className="math-list-item-component-link01">
-                <span className="math-list-item-component-text27">
+              <div className="match-list-item-component-link01">
+                <span className="match-list-item-component-text27">
                   <span className="">Ieejunyeo…</span>
                 </span>
               </div>
             </div>
-            <div className="math-list-item-component-item08">
+            <div className="match-list-item-component-item08">
               <img
                 alt={props.Rammuspng_alt}
                 src={props.Rammuspng_src}
-                className="math-list-item-component-rammuspng"
+                className="match-list-item-component-rammuspng"
               />
-              <div className="math-list-item-component-link02">
-                <span className="math-list-item-component-text29">
+              <div className="match-list-item-component-link02">
+                <span className="match-list-item-component-text29">
                   <span className="">봉봉 청포…</span>
                 </span>
               </div>
             </div>
-            <div className="math-list-item-component-item09">
+            <div className="match-list-item-component-item09">
               <img
                 alt={props.Dianapng_alt}
                 src={props.Dianapng_src}
-                className="math-list-item-component-dianapng"
+                className="match-list-item-component-dianapng"
               />
-              <div className="math-list-item-component-link03">
-                <span className="math-list-item-component-text31">
+              <div className="match-list-item-component-link03">
+                <span className="match-list-item-component-text31">
                   <span className="">내가 탑갈…</span>
                 </span>
               </div>
             </div>
-            <div className="math-list-item-component-item10">
+            <div className="match-list-item-component-item10">
               <img
                 alt={props.Ashepng_alt}
                 src={props.Ashepng_src}
-                className="math-list-item-component-ashepng"
+                className="match-list-item-component-ashepng"
               />
-              <div className="math-list-item-component-link04">
-                <span className="math-list-item-component-text33">
+              <div className="match-list-item-component-link04">
+                <span className="match-list-item-component-text33">
                   <span className="">국방부장…</span>
                 </span>
               </div>
             </div>
-            <div className="math-list-item-component-item11">
+            <div className="match-list-item-component-item11">
               <img
                 alt={props.Lulupng_alt}
                 src={props.Lulupng_src}
-                className="math-list-item-component-lulupng"
+                className="match-list-item-component-lulupng"
               />
-              <div className="math-list-item-component-link05">
-                <span className="math-list-item-component-text35">
+              <div className="match-list-item-component-link05">
+                <span className="match-list-item-component-text35">
                   <span className="">기승이개…</span>
                 </span>
               </div>
             </div>
           </div>
-          <div className="math-list-item-component-list2">
-            <div className="math-list-item-component-item12">
+          <div className="match-list-item-component-list2">
+            <div className="match-list-item-component-item12">
               <img
                 alt={props.Shenpng_alt}
                 src={props.Shenpng_src}
-                className="math-list-item-component-shenpng"
+                className="match-list-item-component-shenpng"
               />
-              <div className="math-list-item-component-link06">
-                <span className="math-list-item-component-text37">
+              <div className="match-list-item-component-link06">
+                <span className="match-list-item-component-text37">
                   <span className="">포션 안사…</span>
                 </span>
               </div>
             </div>
-            <div className="math-list-item-component-item13">
+            <div className="match-list-item-component-item13">
               <img
                 alt={props.MasterYipng_alt}
                 src={props.MasterYipng_src}
-                className="math-list-item-component-master-yipng"
+                className="match-list-item-component-master-yipng"
               />
-              <div className="math-list-item-component-link07">
-                <span className="math-list-item-component-text39">
+              <div className="match-list-item-component-link07">
+                <span className="match-list-item-component-text39">
                   <span className="">Aim On D…</span>
                 </span>
               </div>
             </div>
-            <div className="math-list-item-component-item14">
+            <div className="match-list-item-component-item14">
               <img
                 alt={props.Ahripng_alt}
                 src={props.Ahripng_src}
-                className="math-list-item-component-ahripng1"
+                className="match-list-item-component-ahripng1"
               />
-              <div className="math-list-item-component-link08">
-                <span className="math-list-item-component-text41">
+              <div className="match-list-item-component-link08">
+                <span className="match-list-item-component-text41">
                   <span className="">김석균</span>
                 </span>
               </div>
             </div>
-            <div className="math-list-item-component-item15">
+            <div className="match-list-item-component-item15">
               <img
                 alt={props.Zeripng_alt}
                 src={props.Zeripng_src}
-                className="math-list-item-component-zeripng"
+                className="match-list-item-component-zeripng"
               />
-              <div className="math-list-item-component-link09">
-                <span className="math-list-item-component-text43">
+              <div className="match-list-item-component-link09">
+                <span className="match-list-item-component-text43">
                   <span className="">병 인 지</span>
                 </span>
               </div>
             </div>
-            <div className="math-list-item-component-item16">
+            <div className="match-list-item-component-item16">
               <img
                 alt={props.Leonapng_alt}
                 src={props.Leonapng_src}
-                className="math-list-item-component-leonapng"
+                className="match-list-item-component-leonapng"
               />
-              <div className="math-list-item-component-link10">
-                <span className="math-list-item-component-text45">
+              <div className="match-list-item-component-link10">
+                <span className="match-list-item-component-text45">
                   <span className="">삼대오백…</span>
                 </span>
               </div>
@@ -336,18 +334,18 @@ const MathListItemComponent = (props) => {
           </div>
         </div>
       </div>
-      <div className="math-list-item-component-divaction">
+      <div className="match-list-item-component-divaction">
         <img
           alt={props.iconarrowdownbluesvg_alt}
           src={props.iconarrowdownbluesvg_src}
-          className="math-list-item-component-iconarrowdownbluesvg"
+          className="match-list-item-component-iconarrowdownbluesvg"
         />
       </div>
     </div>
   )
 }
 
-MathListItemComponent.defaultProps = {
+MatchListItemComponent.defaultProps = {
   Lulupng_src: '/external/lulupng1815-rqf-200h.png',
   pseudo_src: '/external/pseudo1815-0bmi-200w.png',
   Akalipng_alt: 'Akalipng1815',
@@ -404,7 +402,7 @@ MathListItemComponent.defaultProps = {
   Item_src: '/external/item1815-79ob-200w.png',
 }
 
-MathListItemComponent.propTypes = {
+MatchListItemComponent.propTypes = {
   Lulupng_src: PropTypes.string,
   pseudo_src: PropTypes.string,
   Akalipng_alt: PropTypes.string,
@@ -460,4 +458,4 @@ MathListItemComponent.propTypes = {
   Item_src: PropTypes.string,
 }
 
-export default MathListItemComponent
+export default MatchListItemComponent

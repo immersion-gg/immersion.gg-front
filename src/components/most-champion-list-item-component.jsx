@@ -1,5 +1,3 @@
-import React from 'react'
-
 import PropTypes from 'prop-types'
 
 import '../styles/most-champion-list-item-component.css'

@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useHistory } from "react-router-dom";
 
 import { Helmet } from 'react-helmet'
 
 import '../styles/home.css'
 
-const Home = (props) => {
+const Home = () => {
 let history = useHistory();
 const [inputSummonerName, setInputSummonerName] = useState('');
 

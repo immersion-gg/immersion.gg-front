@@ -1,11 +1,10 @@
-import React from 'react'
 import { useHistory } from "react-router-dom";
 import PropTypes from 'prop-types'
 
 import MostChampionListItemComponent from './most-champion-list-item-component'
 import '../styles/most-champion-list-component.css'
 
-const MostChampionListComponent = (props) => {
+const MostChampionListComponent = () => {
 
 let history = useHistory();
 

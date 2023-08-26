@@ -43,7 +43,10 @@ const MatchListPage = () => {
         </div>
         <div className="match-list-page-section">
             {
-                matches.map((match, index) => <MatchListItemComponent key={index} match={match} summonerName={someSummonerName}/>)
+                matches.map((match, index) => <MatchListItemComponent
+                    key={index}
+                    match={match}
+                    summonerName={someSummonerName}/>)
             }
         </div>
       </div>
@@ -62,7 +65,7 @@ const LogoComponent = () => {
                     <img
                         onClick={GoHome}
                         alt="logo"
-                        src="/external/linksvg428-xbf.svg"
+                        src="/external/logo1v2.svg"
                         className="champion-statistic-component-link-svg"
                     />
                 </div>

@@ -125,8 +125,8 @@ const getDateDiff = (beforeDate, afterDate) => {
 
 MatchListItemComponent.defaultProps = {
   pseudo_src: '/external/pseudo1815-0bmi-200w.png',
-  divbar_src: '/external/divbar1814-2v2d-200h.png',
-  IMAGE3340png_src: '/external/image3340png1815-e2cb-200w.png',
+  divbar_src: '/external/bar.png',
+  IMAGE3340png_src: '/external/ward.png',
 }
 
 MatchListItemComponent.propTypes = {

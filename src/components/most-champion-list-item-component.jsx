@@ -3,9 +3,14 @@ import PropTypes from 'prop-types'
 import '../styles/most-champion-list-item-component.css'
 import {useHistory} from "react-router-dom";
 
-const MostChampionListItemComponent = ({champion}) => {
+const MostChampionListItemComponent = ({champion, puuid}) => {
     const history = useHistory();
-    const GoChampionPage = (championName) => history.push({pathname: `/champion-statistic-component/${championName}`});
+    const GoChampionPage = (champion, puuid) => {
+      history.push({
+        pathname: `/champion-statistic-component/${champion.championName}`,
+        state: {champion, puuid}
+      });
+    }
 
   return (
       <div className={`most-champion-list-item-component-divchampionbox`}>
@@ -16,7 +21,7 @@ const MostChampionListItemComponent = ({champion}) => {
         />
         <div className="most-champion-list-item-component-divname">
         <span className="most-champion-list-item-component-text">
-          <button onClick={()=>GoChampionPage(champion.championName)}>{champion.championName}</button>
+          <button onClick={()=>GoChampionPage(champion, puuid)}>{champion.championName}</button>
         </span>
         </div>
         <span className="most-champion-list-item-component-text02">
@@ -52,7 +57,8 @@ MostChampionListItemComponent.propTypes = {
       kda: PropTypes.number,
       totalMatch: PropTypes.number,
       winRate: PropTypes.number
-  })
+  }),
+  puuid: PropTypes.string
 }
 
 export default MostChampionListItemComponent

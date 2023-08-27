@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types'
 
 import '../styles/champion-static-with-win-per-component.css'
+import { useOpChampionContext } from '../views/champion-statistic-component';
 
 const ChampionStaticWithWinPerComponent = (props) => {
+  const { opChampion } = useOpChampionContext();
+
   return (
     <div
       className={`champion-static-with-win-per-component-container ${props.rootClassName} `}

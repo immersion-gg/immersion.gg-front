@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types'
 
 import '../styles/champion-static-component.css'
+import { useChampionContext } from '../views/champion-statistic-component';
 
 const ChampionStaticComponent = (props) => {
+  const {champion} = useChampionContext();
+
   return (
     <div
       className={`champion-static-component-container ${props.rootClassName} `}
@@ -15,27 +18,15 @@ const ChampionStaticComponent = (props) => {
               <div className="champion-static-component-container06">
                 <img
                   alt={props.profileIcon5212jpg_alt}
-                  src={props.profileIcon5212jpg_src}
+                  src={champion.championImageUrl}
                   className="champion-static-component-profile-icon5212jpg"
                 />
-                <span className="champion-static-component-text">김석균</span>
+                <span className="champion-static-component-text">{champion.championName}</span>
                 <div className="champion-static-component-container07"></div>
               </div>
             </div>
           </div>
           <div className="champion-static-component-item">
-            <div className="champion-static-component-container08">
-              <img
-                alt="SVG4281"
-                src="/external/svg4281-41kp.svg"
-                className="champion-static-component-svg"
-              />
-              <img
-                alt="SVG4277"
-                src="/external/svg4277-pj57.svg"
-                className="champion-static-component-svg1"
-              />
-            </div>
           </div>
           <div className="champion-static-component-container09"></div>
         </div>
@@ -44,10 +35,8 @@ const ChampionStaticComponent = (props) => {
         <div className="champion-static-component-container11"></div>
         <div className="champion-static-component-container12">
           <span className="champion-static-component-text1">
-            <span className="">3.27</span>
-          </span>
-          <span className="champion-static-component-text3">
-            <span className="">KDA</span>
+            <span className="">KDA  </span>
+            <span className="">{champion.kda}</span>
           </span>
         </div>
       </div>

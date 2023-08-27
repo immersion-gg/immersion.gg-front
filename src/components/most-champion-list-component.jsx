@@ -6,7 +6,7 @@ import {useState} from "react";
 
 const queueTypes = ['전체', '솔로랭크', '자유랭크'];
 
-const MostChampionListComponent = ({mostChampions}) => {
+const MostChampionListComponent = ({mostChampions, puuid}) => {
     const [selectedQueueType, setQueueType] = useState(queueTypes[0]);
 
     return (
@@ -27,7 +27,7 @@ const MostChampionListComponent = ({mostChampions}) => {
             </div>
             <div className="most-champion-list-component-div">
                 {
-                    mostChampions.map(it => <MostChampionListItemComponent key={it.championName} champion={it}/>)
+                    mostChampions.map(it => <MostChampionListItemComponent key={it.championName} champion={it} puuid={puuid}/>)
                 }
             </div>
         </div>
@@ -35,11 +35,13 @@ const MostChampionListComponent = ({mostChampions}) => {
 }
 
 MostChampionListComponent.defaultProps = {
-    mostChampions: []
+    mostChampions: [],
+    puuid: null
 }
 
 MostChampionListComponent.propTypes = {
-    mostChampions: PropTypes.arrayOf
+    mostChampions: PropTypes.arrayOf,
+    puuid: PropTypes.string
 }
 
 export default MostChampionListComponent

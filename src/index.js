@@ -17,7 +17,7 @@ const App = () => {
         <Route
           component={ChampionStatisticComponent}
           exact
-          path="/champion-statistic-component"
+          path="/champion-statistic-component/:championName"
         />
         <Route component={Home} exact path="/" />
       </div>

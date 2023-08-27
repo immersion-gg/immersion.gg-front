@@ -17,6 +17,7 @@ const MatchListPage = () => {
     const [matches, setMatches] = useState([]);
     const [mostChampions, setMostChampions] = useState([]);
     const [userInfo, setUserInfo] = useState();
+    const [puuid, setPuuid] = useState("");
     const [userRating, setUserRating] = useState([]);
     const [soloRank, setSoloRank] = useState([]);
     const [flexRank, setFlexRank] = useState([]);
@@ -26,6 +27,7 @@ const MatchListPage = () => {
         fetchUserInfo(summonerName).then(res => {
             const userInfo = res.data;
             setUserInfo(userInfo);
+            setPuuid(userInfo.puuid);
 
             fetchMatches(userInfo.puuid)
                 .then(res => setMatches(res.data.content || []));
@@ -56,7 +58,7 @@ const MatchListPage = () => {
       }
       <div className="match-list-page-iframe">
         <div className="match-list-page-side">
-          <MostChampionListComponent mostChampions={mostChampions}/>
+          <MostChampionListComponent mostChampions={mostChampions} puuid={puuid}/>
         </div>
         <div className="match-list-page-section">
             {

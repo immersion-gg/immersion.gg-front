@@ -23,17 +23,7 @@ jobs:
         run: ls build/
       - name: Where is it? 
         run: pwd
-        
-      - name: Where is it
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.DEPLOY_IP }}
-          username: ${{ secrets.DEPLOY_USER }}
-          password: ${{ secrets.DEPLOY_PASSWORD }}
-          port: ${{ secrets.SCP_PORT }}
-          script: |
-            ls
-            pwd
+    
       - name: Deploy
         uses: appleboy/scp-action@master
         with:
@@ -43,3 +33,14 @@ jobs:
           port: ${{ secrets.SCP_PORT }}
           source: build/*
           target: /home/${{ secrets.DEPLOY_USER }}/react
+      
+      - name: Copy build file and Restart Web Server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DEPLOY_IP }}
+          username: ${{ secrets.DEPLOY_USER }}
+          password: ${{ secrets.DEPLOY_PASSWORD }}
+          port: ${{ secrets.SCP_PORT }}
+          script: |
+            chmod 777 deploy-react.sh
+            ./deploy-react.sh

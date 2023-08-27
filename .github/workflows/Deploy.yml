@@ -31,7 +31,7 @@ jobs:
           target: /home/${{ secrets.DEPLOY_USER }}/react
   deploy:
     runs-on: ubuntu-latest
-      steps:
+    steps:
       - name: Copy build file and Restart Web Server
         uses: appleboy/ssh-action@master
         with:

@@ -6,8 +6,6 @@ import IngameParticipantComponent from './ingame-participant-component'
 import '../../styles/match-ingame-component.css'
 
 const MatchIngameComponent = (props) => {
-  console.log(props.ingame);
-
   const { gameLength, queueType, teams } = props.ingame;
   const blueTeam = teams.find(team=>team.teamCode === 'BLUE');
   const redTeam = teams.find(team=>team.teamCode === 'RED');

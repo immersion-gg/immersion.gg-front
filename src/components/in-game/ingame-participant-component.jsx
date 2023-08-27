@@ -6,7 +6,6 @@ import IngameParticipantItemComponent from './ingame-participant-item-component'
 import '../../styles/ingame-participant-component.css'
 
 const IngameParticipantComponent = (props) => {
-  console.log(props.team);
   const { teamCode, participants } = props.team;
   const getTeamColorName = (teamCode) => teamCode === 'BLUE' ? '블루' : '레드';
   const teamRatingAverage = () => participants

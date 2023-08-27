@@ -20,7 +20,7 @@ jobs:
         run: npm run build
       
       - name: Deploy
-        uses: appleboy/scp-action@v0.1.4
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.REMOTE_IP }}
           username: ${{ secrets.REMOTE_SSH_ID }}

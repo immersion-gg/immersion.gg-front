@@ -42,6 +42,7 @@ jobs:
            port: ${{ secrets.SCP_PORT }}
            script: |
               cp -r react/build/ /home/azureuser/data/build
+              docker compose down nginx
               docker compose up -d nginx
               
       - name: Health Check

@@ -1,6 +1,6 @@
 .ingame-participant-component-table {
   width: 921px;
-  height: 280px;
+  height: 257px;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -54,7 +54,7 @@
   background-color: rgba(255, 255, 255, 1);
 }
 .ingame-participant-component-text02 {
-  color: rgb(65, 113, 214);
+  color: rgba(154, 164, 175, 1);
   height: auto;
   font-size: 12px;
   align-self: center;
@@ -67,7 +67,7 @@
   text-decoration: none;
 }
 .ingame-participant-component-text03 {
-  color: rgb(65, 113, 214);
+  color: rgba(154, 164, 175, 1);
   height: auto;
   font-size: 12px;
   align-self: center;
@@ -89,7 +89,7 @@
   justify-content: center;
 }
 .ingame-participant-component-text04 {
-  color: rgb(65, 113, 214);
+  color: black;
   height: auto;
   font-size: 12px;
   align-self: center;
@@ -102,7 +102,7 @@
   text-decoration: none;
 }
 .ingame-participant-component-text05 {
-  color: rgb(65, 113, 214);
+  color: rgba(154, 164, 175, 1);
   height: auto;
   font-size: 12px;
   align-self: center;
@@ -182,7 +182,19 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.ingame-participant-component-body {
+.ingame-participant-component-body-red{
+  top: 31.5px;
+  left: 2px;
+  width: 920px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e1d0d0;
+}
+
+.ingame-participant-component-body-blue{
   top: 31.5px;
   left: 2px;
   width: 920px;

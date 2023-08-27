@@ -1,11 +1,12 @@
 .match-ingame-component-divcontentcontainermargin {
-  width: 1920px;
+  width: 100%;
   height: auto;
   display: flex;
   padding: 8px 420px 0;
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
+  justify-content: center;
 }
 .match-ingame-component-divcss1m2ho5a {
   width: 904px;
@@ -79,13 +80,6 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-}
-.match-ingame-component-pseudo {
-  top: 3px;
-  left: 191.63999938964844px;
-  width: 1px;
-  height: 12px;
-  position: absolute;
 }
 .match-ingame-component-text4 {
   top: 2px;

@@ -18,7 +18,17 @@ jobs:
       
       - name: Generate build 
         run: npm run build
-      
+        
+      - name: Where is it
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DEPLOY_IP }}
+          username: ${{ secrets.DEPLOY_USER }}
+          password: ${{ secrets.DEPLOY_PASSWORD }}
+          port: ${{ secrets.SCP_PORT }}
+          script: |
+            ls
+            pwd
       - name: Deploy
         uses: appleboy/ssh-action@master
         with:

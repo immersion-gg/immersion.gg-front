@@ -12,11 +12,9 @@
 .home-container1 {
   height: 996px;
   display: flex;
-  padding: 0 420px;
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
-  padding-left: 0 420px;
   flex-direction: column;
   justify-content: flex-start;
   background-color: var(--dl-color-success-300);

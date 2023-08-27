@@ -16,7 +16,12 @@ const SummonerProfileComponent = (props) => {
   const [mannerRating, setMannerRating] = useState(0);
   const [honorRating, setHonorRating] = useState(0);
   let history = useHistory();
-  const inputSummonerName = props.userInfo.name;
+  const userInfo = props.userInfo;
+  const inputSummonerName = userInfo.name;
+
+  const GoList = () => {
+    history.push({pathname: `/match-list-page/${inputSummonerName}`, state:{inputSummonerName}});
+  };
 
   const GoIngame = () => {
         history.push({pathname: `/match-ingame-page/${inputSummonerName}`, state:{inputSummonerName}});
@@ -179,7 +184,7 @@ const SummonerProfileComponent = (props) => {
           <button className="summoner-profile-component-button" onClick={() => setEvalModalIsOpen(true)}>
             <span className="summoner-profile-component-text09">평가하기</span>
           </button>
-          <button className="summoner-profile-component-button1" onClick={() => setEvalModalIsOpen(true)}>
+          <button className="summoner-profile-component-button1" onClick={() => props.onClickRefreshMatches(userInfo.puuid)}>
             <span className="summoner-profile-component-text09">전적 갱신</span>
           </button>
           <span className="summoner-profile-component-text10">
@@ -190,7 +195,7 @@ const SummonerProfileComponent = (props) => {
       <div className="summoner-profile-component-navbar">
         <div className="summoner-profile-component-nav-list">
           <div className="summoner-profile-component-nav-total">
-            <div className="summoner-profile-component-text-wrapper">
+            <div className="summoner-profile-component-text-wrapper" onClick={GoList}>
               <span className="summoner-profile-component-text11">
                 {props.text2}
               </span>
@@ -227,7 +232,8 @@ SummonerProfileComponent.propTypes = {
   userInfo: PropTypes.any,
   text2: PropTypes.string,
   text: PropTypes.string,
-  text1: PropTypes.string
+  text1: PropTypes.string,
+  onClickRefreshMatches: PropTypes.func
 }
 
 export default SummonerProfileComponent

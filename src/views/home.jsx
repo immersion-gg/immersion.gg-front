@@ -26,7 +26,7 @@ const [inputSummonerName, setInputSummonerName] = useState('');
   return (
     <div className="home-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Immersion.GG</title>
       </Helmet>
       <div className="home-container1">
         <div className="home-header-margin"/>

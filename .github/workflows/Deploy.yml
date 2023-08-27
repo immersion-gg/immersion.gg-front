@@ -20,7 +20,7 @@ jobs:
         run: npm run build
         
       - name: Where is output? 
-        run: ls
+        run: ls build/
       - name: Where is it? 
         run: pwd
         

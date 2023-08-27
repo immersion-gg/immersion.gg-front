@@ -1,7 +1,5 @@
 import {useEffect, useState} from "react";
-
-import {useHistory} from "react-router-dom";
-import { Helmet } from 'react-helmet'
+import {Helmet} from 'react-helmet'
 
 import SummonerProfileComponent from '../components/summoner-profile-component'
 import MostChampionListComponent from '../components/most-champion-list-component'
@@ -9,39 +7,38 @@ import MatchListItemComponent from '../components/match-list-item-component'
 import '../styles/match-list-page.css'
 import '../styles/champion-statistic-component.css'
 import {fetchMatches, fetchMostChampion} from "../api/match";
-import { fetchUserInfo, fetchUserRating, fetchUserSoloRank, fetchUserFlexRank } from '../api/summoner';
-
-
-const somePuuid = 'WGDqDxf7elKBYhM7V7VWaA5Pi5G8x81sHMwKKD7oososvT23KIfOAA5J_V_KsHV4NfdhKed0Pkni7Q';
-const someSummonerName = 'JiWonKang';
+import {fetchUserFlexRank, fetchUserInfo, fetchUserRating, fetchUserSoloRank} from '../api/summoner';
+import LogoComponent from "../components/logo-component";
+import {useLocation} from "react-router-dom";
 
 const MatchListPage = () => {
+    const location = useLocation();
+
     const [matches, setMatches] = useState([]);
     const [mostChampions, setMostChampions] = useState([]);
-    const [showDetail, setShowDetail] = useState(false);
-    const [userInfo, setUserInfo] = useState([]);
+    const [userInfo, setUserInfo] = useState();
     const [userRating, setUserRating] = useState([]);
     const [soloRank, setSoloRank] = useState([]);
     const [flexRank, setFlexRank] = useState([]);
 
-    const openDetail = () => setShowDetail(!showDetail);
+    useEffect(() => {
+        const summonerName = location.state.inputSummonerName;
+        fetchUserInfo(summonerName).then(res => {
+            const userInfo = res.data;
+            setUserInfo(userInfo);
 
-    useEffect(()=>{
-        fetchMatches(somePuuid)
-            .then(res=> setMatches(res.data.content || []));
-        fetchMostChampion(somePuuid)
-            .then(res => setMostChampions(res.data || []));
-        fetchUserInfo(someSummonerName)
-          .then(res => setUserInfo(res.data));
-        fetchUserRating("nWNJ3TFBikpBRHO6o1jMQTeY8T9lwCeKAq73WzxB3iTKcMnFTjQ8mElAWg4R38jLuTuvEheG6eIAcw")
-          .then(res => setUserRating(res.data));
-        fetchUserSoloRank(someSummonerName)
-          .then(res => setSoloRank(res.data));
-        fetchUserFlexRank(someSummonerName)
-          .then(res => setFlexRank(res.data));
-    },[]);
-
-    console.log(openDetail);
+            fetchMatches(userInfo.puuid)
+                .then(res => setMatches(res.data.content || []));
+            fetchMostChampion(userInfo.puuid)
+                .then(res => setMostChampions(res.data || []));
+            fetchUserRating(userInfo.puuid)
+                .then(res => setUserRating(res.data));
+            fetchUserSoloRank(summonerName)
+                .then(res => setSoloRank(res.data));
+            fetchUserFlexRank(summonerName)
+                .then(res => setFlexRank(res.data));
+        });
+    }, []);
 
     return (
     <div className="match-list-page-container">
@@ -49,7 +46,13 @@ const MatchListPage = () => {
           <title>전적 리스트</title>
       </Helmet>
       <LogoComponent/>
-      { userInfo && <SummonerProfileComponent userInfo = {userInfo} userRating = {userRating} soloRank = {soloRank} flexRank = {flexRank}/>
+      {
+          userInfo && <SummonerProfileComponent
+              userInfo = {userInfo}
+              userRating = {userRating}
+              soloRank = {soloRank}
+              flexRank = {flexRank}
+          />
       }
       <div className="match-list-page-iframe">
         <div className="match-list-page-side">
@@ -60,32 +63,12 @@ const MatchListPage = () => {
                 matches.map((match, index) => <MatchListItemComponent
                     key={index}
                     match={match}
-                    summonerName={someSummonerName}/>)
+                    summonerName={userInfo.name}/>)
             }
         </div>
       </div>
     </div>
   )
-}
-
-const LogoComponent = () => {
-    const history = useHistory();
-    const GoHome = () => history.push({pathname: `/`});
-
-    return (
-        <div className="champion-statistic-component-nav">
-            <div className="champion-statistic-component-divafn8215">
-                <div className="champion-statistic-component-linkmargin">
-                    <img
-                        onClick={GoHome}
-                        alt="logo"
-                        src="/external/logo1v2.svg"
-                        className="champion-statistic-component-link-svg"
-                    />
-                </div>
-            </div>
-        </div>
-    )
 }
 
 export default MatchListPage

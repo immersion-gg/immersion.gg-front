@@ -12,7 +12,7 @@ const MatchListItemComponent = (props) => {
   const { gameDuration, queueType, gameStartTime, participants }  = props.match;
   const summonerName = props.summonerName;
 
-  const target = participants.find(it=>it.summonerName === summonerName);
+  const target = participants.find(it=>it.summonerName === summonerName || it.summonerName === summonerName.toLowerCase());
   const targetItems = [ target.itemImageUrl1, target.itemImageUrl2, target.itemImageUrl3, target.itemImageUrl4, target.itemImageUrl5, target.itemImageUrl6];
   const gameTimes = gameDuration.split(":");
   const winTeam = participants.filter(it=>it.win);

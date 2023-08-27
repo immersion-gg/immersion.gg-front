@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import { useHistory, useLocation } from 'react-router-dom';
+import {useState} from 'react';
+import {useHistory} from 'react-router-dom';
 import Modal from 'react-modal';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { fetchUserRate } from '../api/summoner';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faStar} from '@fortawesome/free-solid-svg-icons';
+import {fetchUserRate} from '../api/summoner';
 
 
 import PropTypes from 'prop-types';
@@ -16,8 +16,7 @@ const SummonerProfileComponent = (props) => {
   const [mannerRating, setMannerRating] = useState(0);
   const [honorRating, setHonorRating] = useState(0);
   let history = useHistory();
-  const location = useLocation();
-  const inputSummonerName = location.state.inputSummonerName;
+  const inputSummonerName = props.userInfo.name;
 
   const GoIngame = () => {
         history.push({pathname: `/match-ingame-page/${inputSummonerName}`, state:{inputSummonerName}});

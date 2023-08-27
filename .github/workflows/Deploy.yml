@@ -41,9 +41,9 @@ jobs:
            password: ${{ secrets.DEPLOY_PASSWORD }}
            port: ${{ secrets.SCP_PORT }}
            script: |
-             chmod 777 deploy-react.sh
-             ./deploy-react.sh
-
+              cp -r react/build/ /home/azureuser/data/build
+              docker compose up -d nginx
+              
       - name: Health Check
         uses: jtalk/url-health-check-action@v3
         with:

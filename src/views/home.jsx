@@ -29,7 +29,7 @@ const [inputSummonerName, setInputSummonerName] = useState('');
         <title>exported project</title>
       </Helmet>
       <div className="home-container1">
-        <div className="home-header-margin"></div>
+        <div className="home-header-margin"/>
         <div className="home-search-wrapper">
           <img
             alt="fc9a4aeddcf438c0b4faa8556253fadcpng6784"

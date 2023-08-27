@@ -1,3 +1,11 @@
+progress {
+  width: 70px;
+  height: 6px;
+}
+
+progress::-webkit-progress-value { background: blue; }
+
+
 .real-match-detail-component-item {
   width: 707px;
   height: 516px;
@@ -35,12 +43,18 @@
 .real-match-detail-component-cell {
   width: 165px;
   display: flex;
+  margin-right: 45px;
   padding: 9px 8.899980545043945px 9.5px 9.100019454956055px;
   align-items: flex-start;
   border-color: rgba(213, 227, 255, 1);
   border-style: solid;
   border-width: 0 0 1px;
 }
+
+.real-match-detail-component-other-cell {
+  display: flex;
+}
+
 .real-match-detail-component-text {
   color: rgb(65, 113, 214);
   height: auto;
@@ -89,7 +103,7 @@
 .real-match-detail-component-cell02 {
   width: 73px;
   display: flex;
-  padding: 9px 36.904972076416016px 9.5px 37.095027923583984px;
+  padding: 9px 36.904972076416016px 9.5px 45.095027923583984px;
   align-items: flex-start;
   border-color: rgba(213, 227, 255, 1);
   border-style: solid;

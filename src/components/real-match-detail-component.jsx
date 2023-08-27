@@ -9,7 +9,7 @@ const RealMatchDetailComponent = (props) => {
   const gameMinute = gameDuration.split(":")[0];
   const winParticipants = participants.filter(it=>it.win);
   const loseParticipants = participants.filter(it=>!it.win);
-  const getWinningTeamColor = (winTeamId) => winTeamId === "100" ? 'BLUE' : 'RED';
+  const getWinningTeamColor = (winTeam) => winTeam === "100" ? 'BLUE' : 'RED';
   const getCsPerMinute = (gameMinute) => (cs) => (cs / Number(gameMinute)).toFixed(1);
 
   return (
@@ -25,6 +25,7 @@ const RealMatchDetailComponent = (props) => {
         <ParticipantComponent
             participants={loseParticipants}
             getCsPerMinute={getCsPerMinute(gameMinute)}
+            teamColor={getWinningTeamColor(winTeam)}
         />
       </div>
     </div>

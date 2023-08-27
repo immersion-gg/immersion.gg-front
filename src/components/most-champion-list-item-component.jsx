@@ -16,7 +16,7 @@ const MostChampionListItemComponent = ({champion}) => {
         />
         <div className="most-champion-list-item-component-divname">
         <span className="most-champion-list-item-component-text">
-          <button onClick={()=>GoChampionPage(champion.championName)}>{champion.championName}</button>
+          <span onClick={()=>GoChampionPage(champion.championName)}>{champion.championName}</span>
         </span>
         </div>
         <span className="most-champion-list-item-component-text02">

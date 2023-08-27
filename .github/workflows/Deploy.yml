@@ -1,0 +1,30 @@
+name: Test deploy                    
+on:                                  
+  push:
+    branches:
+      - build/*                        
+jobs:                               
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v3
+      
+      - name: Check Node version   
+        run: node -v
+        
+      - name: Install dependencies 
+        run: npm install
+      
+      - name: Generate build 
+        run: npm run build
+      
+      - name: Deploy
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.REMOTE_IP }}
+          username: ${{ secrets.REMOTE_SSH_ID }}
+          password: ${{ secrets.REMOTE_SSH_KEY }}
+          port: ${{ secrets.REMOTE_SSH_PORT }}
+          source: ./build/
+          target: /home/ ${{ secrets.REMOTE_SSH_ID }}/react

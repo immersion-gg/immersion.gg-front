@@ -9,6 +9,7 @@ import MatchListItemComponent from '../components/match-list-item-component'
 import '../styles/match-list-page.css'
 import '../styles/champion-statistic-component.css'
 import {fetchMatches, fetchMostChampion} from "../api/match";
+import { fetchUserInfo, fetchUserRating, fetchUserSoloRank, fetchUserFlexRank } from '../api/summoner';
 
 
 const somePuuid = 'WGDqDxf7elKBYhM7V7VWaA5Pi5G8x81sHMwKKD7oososvT23KIfOAA5J_V_KsHV4NfdhKed0Pkni7Q';
@@ -18,6 +19,10 @@ const MatchListPage = () => {
     const [matches, setMatches] = useState([]);
     const [mostChampions, setMostChampions] = useState([]);
     const [showDetail, setShowDetail] = useState(false);
+    const [userInfo, setUserInfo] = useState([]);
+    const [userRating, setUserRating] = useState([]);
+    const [soloRank, setSoloRank] = useState([]);
+    const [flexRank, setFlexRank] = useState([]);
 
     const openDetail = () => setShowDetail(!showDetail);
 
@@ -26,6 +31,14 @@ const MatchListPage = () => {
             .then(res=> setMatches(res.data.content || []));
         fetchMostChampion(somePuuid)
             .then(res => setMostChampions(res.data || []));
+        fetchUserInfo(someSummonerName)
+          .then(res => setUserInfo(res.data));
+        fetchUserRating("nWNJ3TFBikpBRHO6o1jMQTeY8T9lwCeKAq73WzxB3iTKcMnFTjQ8mElAWg4R38jLuTuvEheG6eIAcw")
+          .then(res => setUserRating(res.data));
+        fetchUserSoloRank(someSummonerName)
+          .then(res => setSoloRank(res.data));
+        fetchUserFlexRank(someSummonerName)
+          .then(res => setFlexRank(res.data));
     },[]);
 
     console.log(openDetail);
@@ -36,7 +49,8 @@ const MatchListPage = () => {
           <title>전적 리스트</title>
       </Helmet>
       <LogoComponent/>
-      <SummonerProfileComponent/>
+      { userInfo && <SummonerProfileComponent userInfo = {userInfo} userRating = {userRating} soloRank = {soloRank} flexRank = {flexRank}/>
+      }
       <div className="match-list-page-iframe">
         <div className="match-list-page-side">
           <MostChampionListComponent mostChampions={mostChampions}/>

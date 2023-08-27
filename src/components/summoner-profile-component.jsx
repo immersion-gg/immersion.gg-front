@@ -1,23 +1,76 @@
-import { useState } from 'react'
-import { useLocation, useHistory } from "react-router-dom";
+import { useState } from 'react';
+import { useHistory, useLocation } from 'react-router-dom';
 import Modal from 'react-modal';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { fetchUserRate } from '../api/summoner';
 
 
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
-import '../styles/summoner-profile-component.css'
+import '../styles/summoner-profile-component.css';
 
 const SummonerProfileComponent = (props) => {
-const [EvalmodalIsOpen, setEvalModalIsOpen] = useState(false);
-const [GoodCommentModalIsOpen,setGoodCommentModalIsOpen] = useState(false);
-const [BadCommentModalIsOpen,setBadCommentModalIsOpen] = useState(false);
-let history = useHistory();
-const location = useLocation();
-const inputSummonerName = location.state.inputSummonerName;
-console.log(inputSummonerName);
+  const [EvalmodalIsOpen, setEvalModalIsOpen] = useState(false);
+  const [skillRating, setSkillRating] = useState(0);
+  const [mannerRating, setMannerRating] = useState(0);
+  const [honorRating, setHonorRating] = useState(0);
+  let history = useHistory();
+  const location = useLocation();
+  const inputSummonerName = location.state.inputSummonerName;
 
   const GoIngame = () => {
         history.push({pathname: `/match-ingame-page/${inputSummonerName}`, state:{inputSummonerName}});
+  };
+
+  const handleStarClick = (ratingType, value) => {
+    switch (ratingType) {
+      case 'skill':
+        setSkillRating(value);
+        break;
+      case 'manner':
+        setMannerRating(value);
+        break;
+      case 'honor':
+        setHonorRating(value);
+        break;
+      default:
+        break;
+    }
+  };
+
+  const ratingText = ["실력", "매너", "명예로운 적"];
+
+  console.log(props.userInfo);
+  console.log(props.userInfo.puuid);
+  console.log(props.soloRank);
+  console.log(props.flexRank);
+  console.log(props.userRating);
+
+  const renderStars = (rating, ratingType) => {
+    return Array.from({ length: 5 }, (_, index) => (
+      <FontAwesomeIcon
+        key={index}
+        icon={faStar}
+        className={index < rating ? 'star filled' : 'star'}
+        onClick={() => handleStarClick(ratingType, index + 1)}
+      />
+    ));
+  };
+
+  const rateUser = () => {
+    const rateData = {
+      puuid : props.userInfo.puuid,
+      raterUserId : 1,
+      skillRating : skillRating,
+      mannerRating : mannerRating,
+      honorRating : honorRating
+    }
+
+    console.log(rateData);
+    console.log(JSON.stringify(rateData));
+    fetchUserRate(JSON.stringify(rateData)).then(r => console.log(r));
+    setEvalModalIsOpen(false);
   };
 
 
@@ -28,87 +81,62 @@ console.log(inputSummonerName);
       className={`summoner-profile-component-divcontentheader ${props.rootClassName} `}
     >
            <div>
-                         <Modal
-                            isOpen={EvalmodalIsOpen}
-                            onRequestClose={() => setEvalModalIsOpen(false)}
-                            contentLabel="팝업 내용"
-                            style={{
-                                      overlay: {
-                                        zIndex: 2,
-                                      },
-                                      content: {
-                                        zIndex: 3,
-                                      },
-                            }}
-                            >
-                            <p>lorem ipsum</p>
-                            <p>lorem ipsum</p>
-                            <input  />
-                            <p>lorem ipsum</p>
-                            <p>lorem ipsum</p>
-
-                            <button onClick={() => setEvalModalIsOpen(false)}>닫기</button>
-                          </Modal>
-                        </div>
-
-
-                        <div>
-                          <Modal
-                            isOpen={GoodCommentModalIsOpen}
-                            onRequestClose={() => setGoodCommentModalIsOpen(false)}
-                            contentLabel="팝업 내용"
-                            style={{
-                                      overlay: {
-                                        zIndex: 2,
-                                      },
-                                      content: {
-                                        zIndex: 3,
-                                      },
-                            }}
-                            >
-                            <p>좋은평가</p>
-                            <p>좋은평가</p>
-                            <p>좋은평가</p>
-                            <p>좋은평가</p>
-
-
-                            <button onClick={() => setGoodCommentModalIsOpen(false)}>닫기</button>
-                          </Modal>
-                        </div>
-
-                        <div>
-                                                  <Modal
-                                                    isOpen={BadCommentModalIsOpen}
-                                                    onRequestClose={() => setBadCommentModalIsOpen(false)}
-                                                    contentLabel="팝업 내용"
-                                                    style={{
-                                                              overlay: {
-                                                                zIndex: 2,
-                                                              },
-                                                              content: {
-                                                                zIndex: 3,
-                                                              },
-                                                    }}
-                                                    >
-                                                    <p>나쁜평가</p>
-                                                    <p>나쁜평가</p>
-                                                    <p>나쁜평가</p>
-                                                    <p>나쁜평가</p>
-
-                          <button onClick={() => setBadCommentModalIsOpen(false)}>닫기</button>
-                        </Modal>
+              <Modal
+              isOpen={EvalmodalIsOpen}
+              onRequestClose={() => setEvalModalIsOpen(false)}
+              contentLabel="팝업 내용"
+              style={{
+                        overlay: {
+                          zIndex: 2,
+                          width: 600,
+                          height: 700,
+                          backgroundColor: "transparent",
+                        },
+                        content: {
+                          backgroundColor: "#6e6e6e",
+                          zIndex: 3,
+                        },
+              }}
+              >
+                <div className='rateSummoner'>
+                  <h1>소환사 평가</h1>
+                  <div className='ratingSection'>
+                    <h4>실력</h4>
+                    <div className='ratingStars'>
+                      {renderStars(skillRating, 'skill')}
+                    </div>
                   </div>
+                  <div className='ratingSection'>
+                    <h4>매너</h4>
+                    <div className='ratingStars'>
+                      {renderStars(mannerRating, 'manner')}
+                    </div>
+                  </div>
+                  <div className='ratingSection'>
+                    <h4>명예로운 적</h4>
+                    <div className='ratingStars'>
+                      {renderStars(honorRating, 'honor')}
+                    </div>
+                  </div>
+                </div>
+                <div className="ratingButtons">
+                  <button className="ratingButton" type="submit" onClick={() => rateUser()}>평가하기</button><br/><br/>
+                  <button className="ratingButton" onClick={() => setEvalModalIsOpen(false)}>닫기</button>
+                </div>
+              </Modal>
+           </div>
+
       <div className="summoner-profile-component-divheaderprofileinfo">
         <div className="summoner-profile-component-divprofileicon">
           <img
             alt={props.profileIcon5212jpg_alt}
-            src={props.profileIcon5212jpg_src}
+            src={props.userInfo.profileImageUrl}
             className="summoner-profile-component-profile-icon5212jpg"
 
           />
           <div className="summoner-profile-component-summonerlevel">
             <span className="summoner-profile-component-text">
-              <span className="">121</span>
+              <span className="">{props.userInfo.summonerLevel}</span>
             </span>
           </div>
         </div>
@@ -118,9 +146,13 @@ console.log(inputSummonerName);
               <div className="summoner-profile-component-div">
                 <span className="summoner-profile-component-text02">
                   <span className="summoner-profile-component-text03">
-                    S2022
+                    솔로랭크
                   </span>
-                  <span className=""> gold 1</span>
+                  {
+                      props.soloRank.tier === "Unranked"
+                      ? <span className="">  {props.soloRank.tier}</span>
+                      : <span className="">  {props.soloRank.tier} {props.soloRank.rank} {props.soloRank.leaguePoints}pt</span>
+                  }
                 </span>
               </div>
             </div>
@@ -128,38 +160,43 @@ console.log(inputSummonerName);
               <div className="summoner-profile-component-div1">
                 <span className="summoner-profile-component-text05">
                   <span className="summoner-profile-component-text06">
-                    S2021
+                    자유랭크
                   </span>
-                  <span className=""> gold 1</span>
+                  {
+                      props.flexRank.tier === "Unranked"
+                      ? <span className="">  {props.flexRank.tier}</span>
+                      : <span className="">{props.flexRank.tier} {props.flexRank.rank} {props.flexRank.leaguePoints}</span>
+                  }
                 </span>
               </div>
             </div>
           </div>
           <div className="summoner-profile-component-divname">
             <div className="summoner-profile-component-heading1">
-              <span className="summoner-profile-component-text08">김석균</span>
+              <span className="summoner-profile-component-text08">{props.userInfo.name}</span>
+            </div>
+          </div>
+          <div>
+            <div className="rating">
+              <table>
+              {props.userRating.map((rating, index) => (
+                  <tr key={index}>
+                    <td className="ratingText">{ratingText[index]}</td>
+                    <td>{renderStars(rating)}</td>
+                  </tr>
+              ))}
+              </table>
             </div>
           </div>
           <button className="summoner-profile-component-button" onClick={() => setEvalModalIsOpen(true)}>
             <span className="summoner-profile-component-text09">평가하기</span>
           </button>
+          <button className="summoner-profile-component-button1" onClick={() => setEvalModalIsOpen(true)}>
+            <span className="summoner-profile-component-text09">전적 갱신</span>
+          </button>
           <span className="summoner-profile-component-text10">
             Available in 85 Seconds.
           </span>
-          <div className="summoner-profile-component-container">
-            <img
-              alt={props.pastedImage_alt4}
-              src={props.pastedImage_src4}
-              className="summoner-profile-component-pasted-image"
-              onClick={() => setGoodCommentModalIsOpen(true)}
-            />
-            <img
-              alt={props.pastedImage_alt34}
-              src={props.pastedImage_src34}
-              className="summoner-profile-component-pasted-image1"
-              onClick={() => setBadCommentModalIsOpen(true)}
-            />
-          </div>
         </div>
       </div>
       <div className="summoner-profile-component-navbar">
@@ -254,6 +291,10 @@ SummonerProfileComponent.defaultProps = {
 }
 
 SummonerProfileComponent.propTypes = {
+  soloRank: PropTypes.any,
+  flexRank: PropTypes.any,
+  userRating: PropTypes.any,
+  userInfo: PropTypes.any,
   riotlogomarkcircleoffwhite2xpng_alt: PropTypes.string,
   profileIcon5212jpg_alt: PropTypes.string,
   riotlogomarkcircleoffwhite2xpng_src: PropTypes.string,

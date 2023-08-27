@@ -73,12 +73,13 @@
   gap: 4px;
   top: 7px;
   left: 0px;
-  width: 155px;
+  width: auto;
   display: flex;
   position: absolute;
   align-items: flex-start;
 }
 .summoner-profile-component-item {
+
   display: flex;
   padding: 0 4px;
   align-items: flex-start;
@@ -151,7 +152,7 @@
 }
 .summoner-profile-component-text08 {
   color: rgb(255, 255, 255);
-  width: 72px;
+  width: auto;
   height: auto;
   font-size: 24px;
   font-style: Bold;
@@ -164,6 +165,21 @@
 }
 .summoner-profile-component-button {
   left: 0px;
+  width: 94px;
+  bottom: 33px;
+  height: 40px;
+  display: flex;
+  padding: 12px 13.44000244140625px 12px 14px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(235, 238, 241, 1);
+}
+.summoner-profile-component-button1 {
+  left: 116px;
   width: 94px;
   bottom: 33px;
   height: 40px;
@@ -328,3 +344,97 @@
   align-self: flex-start;
   background-color: #F3FDE8;
 }
+.rateSummoner *{
+  margin-bottom: 20px;
+}
+.rating {
+  margin-bottom: 15px;
+}
+.ratingText {
+  color: rgb(0, 163, 153);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.rateSummoner {
+  font-family: "Century Gothic", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.rateSummoner h1 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.ratingSection {
+  margin-bottom: 20px;
+}
+
+.ratingStars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 13px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.ratingStars .star {
+  font-size: 24px;
+}
+.star:hover {
+  color: #ffbf00;
+}
+
+.filled {
+  color: #ffbf00;
+}
+
+select {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+}
+
+.ratingButton{
+  display:inline-block ;
+  width :30% ;
+  padding :10px ;
+  margin-top :10px ;
+  color:white ;
+  border:none ;
+  cursor:pointer ;
+}
+.ratingButtons {
+  text-align: center;
+}
+.ratingButton[type="submit"]{
+  background-color: #4caf50;
+  color: white;
+}
+.ratingButton:last-child{
+  background-color: #f44336;
+  color: white;
+}
+.ratingButton:hover {
+  background-color: #ddd;
+}
+

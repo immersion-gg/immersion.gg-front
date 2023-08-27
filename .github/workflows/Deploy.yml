@@ -30,6 +30,7 @@ jobs:
           source: build/*
           target: /home/${{ secrets.DEPLOY_USER }}/react
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Copy build file and Restart Web Server

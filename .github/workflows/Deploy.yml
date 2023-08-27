@@ -19,6 +19,11 @@ jobs:
       - name: Generate build 
         run: npm run build
         
+      - name: Where is output? 
+        run: ls
+      - name: Where is it? 
+        run: pwd
+        
       - name: Where is it
         uses: appleboy/ssh-action@master
         with:

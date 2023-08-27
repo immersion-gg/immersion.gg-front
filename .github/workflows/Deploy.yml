@@ -41,5 +41,6 @@ jobs:
           username: ${{ secrets.DEPLOY_USER }}
           password: ${{ secrets.DEPLOY_PASSWORD }}
           port: ${{ secrets.SCP_PORT }}
-          source: "build/*"
-          target: "react"
+          source: build/*
+          strip_components: 1
+          target: /home/${{ secrets.DEPLOY_USER }}/react

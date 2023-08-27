@@ -1,0 +1,52 @@
+name: Deploy ImmersionGG Front
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v3
+
+      - name: Check Node version
+        run: node -v
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate build
+        run: npm run build
+
+      - name: Copy file to Deploy Server
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.DEPLOY_IP }}
+          username: ${{ secrets.DEPLOY_USER }}
+          password: ${{ secrets.DEPLOY_PASSWORD }}
+          port: ${{ secrets.SCP_PORT }}
+          source: build/*
+          target: /home/${{ secrets.DEPLOY_USER }}/react
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copy build file and Restart Web Server
+        uses: appleboy/ssh-action@master
+        with:
+           host: ${{ secrets.DEPLOY_IP }}
+           username: ${{ secrets.DEPLOY_USER }}
+           password: ${{ secrets.DEPLOY_PASSWORD }}
+           port: ${{ secrets.SCP_PORT }}
+           script: |
+              cp -r react/build/ /home/azureuser/data/build
+              docker compose up -d nginx
+              
+      - name: Health Check
+        uses: jtalk/url-health-check-action@v3
+        with:
+          url: https://immersiongg.p-e.kr/
+          max-attempts: 3
+          retry-delay: 5s

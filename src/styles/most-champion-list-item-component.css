@@ -31,7 +31,7 @@
   align-items: flex-start;
 }
 .most-champion-list-item-component-text {
-  color: rgba(32, 45, 55, 1);
+  color: bisque;
   height: auto;
   font-size: 12px;
   align-self: flex-start;
@@ -96,7 +96,7 @@
   left: 244px;
   width: 76px;
   display: flex;
-  padding: 0 0.6100006103515625px 0 33.38999938964844px;
+  padding: 0 0.6100006103515625px 0 20px;
   position: absolute;
   align-self: flex-start;
   align-items: flex-start;

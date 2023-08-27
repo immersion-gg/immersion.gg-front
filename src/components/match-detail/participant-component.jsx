@@ -3,13 +3,20 @@ import PropTypes from "prop-types";
 
 const ParticipantComponent = ({ participants, isWin=false, teamColor, getCsPerMinute}) => {
     const cellHeader = ['KDA', 'Damage', 'CS', 'Item'];
+    const resultFontColor = {
+        color: isWin ? 'BLUE' : 'RED'
+    }
 
     return (
         <div className="real-match-detail-component-table">
             <div className="real-match-detail-component-header-row">
                 <div className="real-match-detail-component-cell">
-                    <span className="real-match-detail-component-text">{ isWin ? '승리' : '패배'}</span>
-                    <span className="real-match-detail-component-text001">{ teamColor === 'BLUE' ? '(블루팀)' : '(레드팀)'}</span>
+                    <span className="real-match-detail-component-text" style={resultFontColor}>
+                        { isWin ? '승리' : '패배'}
+                    </span>
+                    <span className="real-match-detail-component-text001">
+                        { teamColor === 'BLUE' ? '(블루팀)' : '(레드팀)'}
+                    </span>
                 </div>
                 <div className="real-match-detail-component-other-cell">
                     {
@@ -35,6 +42,7 @@ const ParticipantComponent = ({ participants, isWin=false, teamColor, getCsPerMi
 
 const ParticipantItemComponent = ({ participant, getCsPerMinute }) => {
     const itemUrls = [ participant.itemImageUrl1, participant.itemImageUrl2, participant.itemImageUrl3, participant.itemImageUrl4, participant.itemImageUrl5, participant.itemImageUrl6];
+
     return (
         <div className="real-match-detail-component-row">
             <div className="real-match-detail-component-data-link">
@@ -47,7 +55,7 @@ const ParticipantItemComponent = ({ participant, getCsPerMinute }) => {
                 <IconSlotComponent iconUrls={[participant.spellImageUrl1, participant.spellImageUrl2]} imageSize={"18px"} showsVertical/>
             </div>
             <div className="real-match-detail-component-data01">
-                <IconSlotComponent iconUrls={[participant.perkImageUrl1, participant.perkImageUrl1]} imageSize={"18px"} showsVertical/>
+                <IconSlotComponent iconUrls={[participant.perkImageUrl1, participant.perkImageUrl2]} imageSize={"18px"} showsVertical/>
             </div>
             <div className="real-match-detail-component-data02">
                 <span className="real-match-detail-component-text016">{participant.summonerName}</span>

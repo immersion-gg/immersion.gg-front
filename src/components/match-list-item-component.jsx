@@ -19,13 +19,20 @@ const MatchListItemComponent = (props) => {
   const loseTeam = participants.filter(it=>!it.win);
 
   const toggleDetail = () => setShowDetail(!showDetail);
-
   const gameTimeAgo = getDateDiff(new Date(gameStartTime), new Date());
+
+  const resultColor = target.win ? '#00BFFF' : '#BE3455';
+  const resultLeftEdgeStyles = {
+    borderColor: resultColor
+  }
+  const resultContentStyles = {
+    backgroundColor: resultColor
+  }
 
   return (
       <>
-        <div className="match-list-item-component-item" onClick={toggleDetail}>
-          <div className="match-list-item-component-divgamecontent">
+        <div className="match-list-item-component-item" onClick={toggleDetail} style={resultLeftEdgeStyles}>
+          <div className="match-list-item-component-divgamecontent" style={resultContentStyles}>
             <div className="match-list-item-component-divgame">
               <div className="match-list-item-component-divtype">
                 <span className="match-list-item-component-text">{queueType.name}</span>

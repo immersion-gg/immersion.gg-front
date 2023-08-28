@@ -6,7 +6,7 @@ import MostChampionListComponent from '../components/most-champion-list-componen
 import MatchListItemComponent from '../components/match-list-item-component'
 import '../styles/match-list-page.css'
 import '../styles/champion-statistic-component.css'
-import {fetchMatches, fetchMostChampion} from "../api/match";
+import {fetchMatches, fetchMostChampion, refreshMatches} from "../api/match";
 import {fetchUserFlexRank, fetchUserInfo, fetchUserRating, fetchUserSoloRank} from '../api/summoner';
 import LogoComponent from "../components/logo-component";
 import {useLocation} from "react-router-dom";
@@ -42,6 +42,17 @@ const MatchListPage = () => {
         });
     }, []);
 
+    const onClickRefreshMatches = (puuid) => {
+        refreshMatches(puuid).then(res => {
+            if (res.status === 200) {
+                fetchMatches(puuid)
+                    .then(res => setMatches(res.data.content || []));
+                fetchMostChampion(puuid)
+                    .then(res => setMostChampions(res.data || []));
+            }
+        })
+    }
+
     return (
     <div className="match-list-page-container">
       <Helmet>
@@ -54,6 +65,7 @@ const MatchListPage = () => {
               userRating = {userRating}
               soloRank = {soloRank}
               flexRank = {flexRank}
+              onClickRefreshMatches={onClickRefreshMatches}
           />
       }
       <div className="match-list-page-iframe">

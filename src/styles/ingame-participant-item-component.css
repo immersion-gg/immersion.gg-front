@@ -1,0 +1,261 @@
+.ingame-participant-item-component-row {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.ingame-participant-item-component-data {
+  display: flex;
+  padding: 3.119999885559082px 4px 3.15000057220459px 8px;
+  align-items: flex-start;
+}
+.ingame-participant-item-component-link {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: flex-end;
+}
+.ingame-participant-item-component-oriannapng {
+  width: 32px;
+  height: 32px;
+}
+.ingame-participant-item-component-data3 {
+  width: 318.95001220703125px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.ingame-participant-item-component-link1 {
+  top: 5.260000228881836px;
+  left: 7px;
+  width: 120px;
+  display: flex;
+  padding: 0 0 0 7px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.ingame-participant-item-component-text {
+  color: rgba(32, 45, 55, 1);
+  width: 100px;
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-item-component-divsummonerlevel {
+  top: 20.760000228881836px;
+  left: 0px;
+  width: 319px;
+  display: flex;
+  padding: 0 257.95001220703125px 1px 14px;
+  position: absolute;
+  align-items: flex-start;
+}
+.ingame-participant-item-component-text02 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-item-component-data4 {
+  display: flex;
+  padding: 9.119999885559082px 6px 9.15000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+}
+.ingame-participant-item-component-silverpng {
+  width: 20px;
+  height: 20px;
+}
+.ingame-participant-item-component-data5 {
+  display: flex;
+  padding: 12.619999885559082px 0 12.65000057220459px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.ingame-participant-item-component-div {
+  display: flex;
+  padding: 0 60.02000427246094px 0 0;
+  align-items: flex-start;
+}
+.ingame-participant-item-component-text04 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-item-component-data6 {
+  width: 124px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.ingame-participant-item-component-strong {
+  top: 7.619999885559082px;
+  left: 22.55500030517578px;
+  width: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.ingame-participant-item-component-text06 {
+  color: rgba(0, 163, 153, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-item-component-text08 {
+  top: 7.619999885559082px;
+  left: 42.97502136230469px;
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-item-component-divcss1tij1h9 {
+  top: 24.6200008392334px;
+  left: 12px;
+  width: 70px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 224, 228, 1);
+}
+.ingame-participant-item-component-data7 {
+  gap: -0.9999990463256836px;
+  display: flex;
+  padding: 2.119999885559082px 0 3.1499996185302734px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.ingame-participant-item-component-divwinratio {
+  display: flex;
+  padding: 0 42.400001525878906px 1px 42.599998474121094px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.ingame-participant-item-component-text10 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-item-component-div1 {
+  display: flex;
+  padding: 0 24.90999984741211px 1px 25.09000015258789px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.ingame-participant-item-component-text12 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-item-component-data8 {
+  gap: -0.9999990463256836px;
+  display: flex;
+  padding: 3.119999885559082px 0 4.149999618530273px;
+  align-items: center;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  flex-direction: column;
+}
+.ingame-participant-item-component-divcss1cm7jv5 {
+  display: flex;
+  padding: 0 26.404998779296875px 0 26.595001220703125px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.ingame-participant-item-component-text14 {
+  color: rgba(0, 187, 163, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-item-component-text17 {
+  color: rgba(117, 133, 146, 1);
+  height: auto;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+
+
+

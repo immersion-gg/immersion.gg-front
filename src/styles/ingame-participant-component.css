@@ -1,0 +1,208 @@
+.ingame-participant-component-table {
+  width: 921px;
+  height: 257px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.ingame-participant-component-header-row {
+  top: -0.5px;
+  left: 2px;
+  width: 1078px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.ingame-participant-component-cell {
+  display: flex;
+  padding: 9.5px 6.029998779296875px 8.5px 12px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.ingame-participant-component-text {
+  color: rgba(65, 113, 214, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-component-cell1 {
+  gap: 2.44000244140625px;
+  width: 146px;
+  height: 35px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 9.5px 209.15000915527344px 8.5px 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  padding-left: 9.5px 209.15000915527344px 8.5px 0;
+  padding-bottom: 9.5px 209.15000915527344px 8.5px 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.ingame-participant-component-text02 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  align-self: center;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-component-text03 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  align-self: center;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-component-cell2 {
+  flex: 0 0 auto;
+  width: 147px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.ingame-participant-component-text04 {
+  color: black;
+  height: auto;
+  font-size: 12px;
+  align-self: center;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-component-text05 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  align-self: center;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-component-cell3 {
+  width: 177px;
+  height: 36px;
+  display: flex;
+  padding: 9.5px 64.40998840332031px 8.5px 64.61001586914062px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.ingame-participant-component-text06 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-component-cell4 {
+  width: 155px;
+  height: 35px;
+  display: flex;
+  padding: 9.5px 18.40499496459961px 8.5px 18.59500503540039px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.ingame-participant-component-text08 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-component-cell5 {
+  display: flex;
+  padding: 9.5px 20.900012969970703px 8.5px 21.099987030029297px;
+  align-items: flex-start;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.ingame-participant-component-text10 {
+  color: rgba(154, 164, 175, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ingame-participant-component-body-red{
+  top: 31.5px;
+  left: 2px;
+  width: 920px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e1d0d0;
+}
+
+.ingame-participant-component-body-blue{
+  top: 31.5px;
+  left: 2px;
+  width: 920px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(213, 227, 255, 1);
+}
+

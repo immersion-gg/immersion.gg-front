@@ -12,11 +12,9 @@
 .home-container1 {
   height: 996px;
   display: flex;
-  padding: 0 420px;
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
-  padding-left: 0 420px;
   flex-direction: column;
   justify-content: flex-start;
   background-color: var(--dl-color-success-300);
@@ -24,7 +22,6 @@
 .home-header-margin {
   flex: 0 0 auto;
   width: 1937px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100px;
   display: flex;
   align-items: flex-start;

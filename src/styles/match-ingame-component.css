@@ -1,0 +1,98 @@
+.match-ingame-component-divcontentcontainermargin {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 8px 420px 0;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.match-ingame-component-divcss1m2ho5a {
+  width: 904px;
+  display: flex;
+  padding: 1px 0 0.0000152587890625px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  border-radius: 4px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.match-ingame-component-game-info-wrapper {
+  gap: 675.6900024414062px;
+  width: 1080px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-black);
+}
+.match-ingame-component-game-info {
+  width: 229.5px;
+  height: 16px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.match-ingame-component-text {
+  color: var(--dl-color-gray-white);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-component-spanmap {
+  top: 2px;
+  left: 86.72000122070312px;
+  width: 97px;
+  height: 14px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(195, 203, 209, 1);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+}
+.match-ingame-component-text2 {
+  left: 9px;
+  color: var(--dl-color-gray-white);
+  width: 88px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.match-ingame-component-text4 {
+  top: 2px;
+  left: 199.63999938964844px;
+  color: var(--dl-color-gray-white);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

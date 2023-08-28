@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - develop
+env:
+  DEPLOY_DIRECTORY: ${{ secrets.DEPLOY_DIRECTORY }}
 
 jobs:
   build:
@@ -19,6 +21,16 @@ jobs:
 
       - name: Generate build
         run: npm run build
+      
+      - name: Remove Before build file
+        uses: appleboy/ssh-action@master
+        with:
+           host: ${{ secrets.DEPLOY_IP }}
+           username: ${{ secrets.DEPLOY_USER }}
+           password: ${{ secrets.DEPLOY_PASSWORD }}
+           port: ${{ secrets.SCP_PORT }}
+           script: |
+               rm -r $DEPLOY_DIRECTORY
 
       - name: Copy file to Deploy Server
         uses: appleboy/scp-action@master
@@ -28,7 +40,7 @@ jobs:
           password: ${{ secrets.DEPLOY_PASSWORD }}
           port: ${{ secrets.SCP_PORT }}
           source: build/*
-          target: /home/${{ secrets.DEPLOY_USER }}/react
+          target: ${{ secrets.DEPLOY_DIRECTORY }}
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -41,7 +53,6 @@ jobs:
            password: ${{ secrets.DEPLOY_PASSWORD }}
            port: ${{ secrets.SCP_PORT }}
            script: |
-              cp -r react/build/ /home/azureuser/data/build
               docker compose down nginx
               docker compose up -d nginx
               

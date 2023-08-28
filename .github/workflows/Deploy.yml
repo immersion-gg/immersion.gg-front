@@ -31,7 +31,7 @@ jobs:
            port: ${{ secrets.SCP_PORT }}
            envs: DEPLOY_DIRECTORY
            script: |
-               rm -r $DEPLOY_DIRECTORY
+               rm -r $DEPLOY_DIRECTORY/build
 
       - name: Copy file to Deploy Server
         uses: appleboy/scp-action@master

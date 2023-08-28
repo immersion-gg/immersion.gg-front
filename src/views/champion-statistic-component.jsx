@@ -8,6 +8,9 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import { fetchWinRate } from '../api/winRate';
 import { fetchMostChampion } from '../api/match';
 import { useLocation } from 'react-router-dom';
+import EachOpChampionStatic from '../components/each-opchampion-static';
+import LogoComponent from '../components/logo-component';
+import Modal from 'react-modal';
 
 const ChampionContext = createContext();
 const OpChampionContext = createContext();
@@ -21,22 +24,49 @@ export function useOpChampionContext() {
 
 const ChampionStatisticComponent = () => {
   const location = useLocation();
+  const [EvalmodalIsOpen, setEvalModalIsOpen] = useState(false);
   const [champion, setChampion] = useState(location.state.champion);
   const [opChampions, setOpChampions] = useState([]);
   const [mostChampions, setMostChampions] = useState([]);
+  const [opChampion, setOpChampion] = useState(null);
+  const [opChampionName, setOpChampionName] = useState("");
   const puuid = location.state.puuid;
 
   useEffect(() => {
     fetchWinRate(puuid, champion.championName)
-      .then(res => setOpChampions(res.data));
+      .then(res => setOpChampions(res.data) || []);
     fetchMostChampion(puuid)
       .then(res => setMostChampions(res.data || []));
   }, [champion]);
 
-  const [opChampion, setOpChampion] = useState(opChampions[0]);
-
   return (
     <div className="champion-statistic-component-container">
+      <div>
+        <Modal
+          isOpen={EvalmodalIsOpen}
+          onRequestClose={() => setEvalModalIsOpen(false)}
+          contentLabel="팝업 내용"
+          style={{
+            overlay: {
+              zIndex: 2,
+              width: 600,
+              height: 700,
+              backgroundColor: "transparent",
+            },
+            content: {
+              backgroundColor: "#6e6e6e",
+              zIndex: 3,
+            },
+          }}
+        >
+          <div>
+            <span className="gptAnswer">{opChampions.gptAnswer}</span>
+          </div>
+          <div className="ratingButtons">
+            <button className="ratingButton" onClick={() => setEvalModalIsOpen(false)}>닫기</button>
+          </div>
+        </Modal>
+      </div>
       <Helmet>
         <title>ChampionStatisticComponent - exported project</title>
         <meta
@@ -48,7 +78,7 @@ const ChampionStatisticComponent = () => {
         <div className="champion-statistic-component-nav">
           <div className="champion-statistic-component-divafn8215">
             <div className="champion-statistic-component-linkmargin">
-              <logo-component />
+              <LogoComponent/>
             </div>
           </div>
         </div>
@@ -62,18 +92,13 @@ const ChampionStatisticComponent = () => {
               <div className="champion-statistic-component-list">
                 <div className="champion-statistic-component-divk7f3uw10">
                   <div className="champion-statistic-component-spank7f3uw12">
-                    <span className="champion-statistic-component-text">
-                      <span></span>
+                    <span className="champion-statistic-compo nent-text">
+                      <span>챔피언</span>
                     </span>
                   </div>
                   <div className="champion-statistic-component-spank7f3uw121">
                     <span className="champion-statistic-component-text02">
                       <span>승률</span>
-                    </span>
-                  </div>
-                  <div className="champion-statistic-component-spank7f3uw122">
-                    <span className="champion-statistic-component-text04">
-                      <span>인분</span>
                     </span>
                   </div>
                   <div className="champion-statistic-component-spank7f3uw123">
@@ -94,7 +119,8 @@ const ChampionStatisticComponent = () => {
           </ChampionContext.Provider>
         </div>
         <div className="champion-statistic-component-header1">
-          <OpChampionContext.Provider value = {{opChampion, setOpChampion}}>
+          { opChampions.length !== 0 &&
+            <OpChampionContext.Provider value = {{ opChampionName,  opChampion, setOpChampionName, setOpChampion}}>
           <ChampionStaticWithWinPerComponent rootClassName="champion-static-with-win-per-component-root-class-name"></ChampionStaticWithWinPerComponent>
           <div className="champion-statistic-component-divxa61q11">
             <div className="champion-statistic-component-divsc68ejq01">
@@ -102,7 +128,7 @@ const ChampionStatisticComponent = () => {
                 <div className="champion-statistic-component-divk7f3uw101">
                   <div className="champion-statistic-component-spank7f3uw124">
                     <span className="champion-statistic-component-text08">
-                      <span>최근 27 경기</span>
+                      <span>챔피언</span>
                     </span>
                   </div>
                   <div className="champion-statistic-component-spank7f3uw125">
@@ -110,32 +136,35 @@ const ChampionStatisticComponent = () => {
                       <span>승률</span>
                     </span>
                   </div>
-                  <div className="champion-statistic-component-spank7f3uw126">
-                    <span className="champion-statistic-component-text12">
-                      <span>인분</span>
-                    </span>
-                  </div>
-                  <div className="champion-statistic-component-spank7f3uw127">
-                    <span className="champion-statistic-component-text14">
-                      <span>KDA</span>
-                    </span>
-                  </div>
                 </div>
                 {
-                  opChampions[0].map((champion, index) =>
-                    <div key={index}>
-                      <EachChampionStatic rootClassName="each-champion-static-root-class-name12" champion={champion}></EachChampionStatic>
-                    </div>)
+                  opChampions.length !== 0 ? (
+                    Object.entries(opChampions.championWinRateResponseMap).map(([championName, championData], index) => (
+                      <div key={index}>
+                        <EachOpChampionStatic
+                          rootClassName="each-champion-static-root-class-name12"
+                          champion={championData}
+                          championName={championName}
+                        ></EachOpChampionStatic>
+                      </div>
+                    ))
+                  ) : (
+                    <span>Loading...</span>
+                  )
+
                 }
               </div>
             </div>
           </div>
-          </OpChampionContext.Provider>
+          </OpChampionContext.Provider> }
         </div>
         <span className="champion-statistic-component-text16">
           <span>VS</span>
         </span>
       </div>
+      <button className="summoner-profile-component-button" onClick={() => setEvalModalIsOpen(true)}>
+        <span className="summoner-profile-component-text09">GPT 분석 보기</span>
+      </button>
     </div>
   )
 }

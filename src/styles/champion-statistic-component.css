@@ -314,13 +314,13 @@
 }
 .champion-statistic-component-text12 {
   color: rgba(153, 153, 153, 1);
+  margin: 100px 100px 30px 100px;
   height: auto;
-  font-size: 10px;
+  font-size: 15px;
   font-style: Regular;
   text-align: center;
   font-family: Roboto;
   font-weight: 400;
-  line-height: 12px;
   font-stretch: normal;
   text-decoration: none;
 }
@@ -358,4 +358,9 @@
   padding-top: 250px;
   font-stretch: normal;
   text-decoration: none;
+}
+
+.gptAnswer {
+  line-break: auto;
+  line-height:25px;
 }

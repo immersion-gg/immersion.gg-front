@@ -164,7 +164,6 @@
   text-decoration: none;
 }
 .summoner-profile-component-button {
-  left: 0px;
   width: 94px;
   bottom: 33px;
   height: 40px;
@@ -174,7 +173,6 @@
   align-items: center;
   flex-shrink: 0;
   border-radius: 4px;
-  flex-direction: row;
   justify-content: center;
   background-color: rgba(235, 238, 241, 1);
 }

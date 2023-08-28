@@ -35,6 +35,9 @@ const ChampionStaticComponent = (props) => {
         <div className="champion-static-component-container11"></div>
         <div className="champion-static-component-container12">
           <span className="champion-static-component-text1">
+            <span className="">{champion.winMatchCount}승  </span>
+            <span className="">{champion.loseMatchCount}패  </span>
+            <span className="">{champion.winRate}% </span>
             <span className="">KDA  </span>
             <span className="">{champion.kda}</span>
           </span>

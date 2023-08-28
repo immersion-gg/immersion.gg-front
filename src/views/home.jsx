@@ -47,11 +47,7 @@ const [inputSummonerName, setInputSummonerName] = useState('');
               </button>
               <div className="home-div">
                 <span className="home-text">Search</span>
-                <div className="home-input">
-                     <input type="text" name="inputSummonerName" placeholder="Name" value={inputSummonerName} onChange={handleInputChange} onKeyPress={handleKeyPress}/>
-                  <div className="home-divplaceholder">
-                  </div>
-                </div>
+                <input className="home-input" type="text" name="inputSummonerName" placeholder="소환사명" value={inputSummonerName} onChange={handleInputChange} onKeyPress={handleKeyPress}/>
               </div>
             </div>
           </div>

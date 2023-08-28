@@ -17,7 +17,7 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: flex-start;
-  background: url('external/background-home.png')
+  background: url('/external/background-home.png')
 }
 .home-header-margin {
   flex: 0 0 auto;

@@ -90,15 +90,14 @@
   height: 40px;
   display: flex;
   position: absolute;
-  align-items: flex-start;
+  align-items: center;
   flex-shrink: 0;
   margin-left: var(--dl-space-space-threeunits);
-  flex-direction: column;
 }
 .home-text {
   color: rgb(32, 45, 55);
   height: auto;
-  font-size: 12px;
+  font-size: 16px;
   font-style: Bold;
   text-align: left;
   font-family: Roboto;
@@ -109,6 +108,9 @@
 }
 .home-input {
   display: flex;
+  width:80%;
+  height:40px;
+  margin-left:30px;
   padding: 2px 0;
   align-items: flex-start;
   background-color: rgba(255, 255, 255, 1);

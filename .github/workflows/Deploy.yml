@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - develop
-env:
-  DEPLOY_DIRECTORY: ${{ secrets.DEPLOY_DIRECTORY }}
 
 jobs:
   build:
@@ -24,11 +22,14 @@ jobs:
       
       - name: Remove Before build file
         uses: appleboy/ssh-action@master
+        env:
+          DEPLOY_DIRECTORY: ${{ secrets.DEPLOY_DIRECTORY }}
         with:
            host: ${{ secrets.DEPLOY_IP }}
            username: ${{ secrets.DEPLOY_USER }}
            password: ${{ secrets.DEPLOY_PASSWORD }}
            port: ${{ secrets.SCP_PORT }}
+           envs: DEPLOY_DIRECTORY
            script: |
                rm -r $DEPLOY_DIRECTORY
 

@@ -32,8 +32,7 @@ const [inputSummonerName, setInputSummonerName] = useState('');
         <div className="home-header-margin"/>
         <div className="home-search-wrapper">
           <img
-            alt="fc9a4aeddcf438c0b4faa8556253fadcpng6784"
-            src="/external/fc9a4aeddcf438c0b4faa8556253fadcpng6784-0klk-300h.png"
+            src="/external/immersiongg-logo.png"
             className="home-home-background"
           />
           <div className="home-search-form">

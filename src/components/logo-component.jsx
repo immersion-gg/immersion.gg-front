@@ -11,7 +11,7 @@ const LogoComponent = () => {
                     <img
                         onClick={GoHome}
                         alt="logo"
-                        src="/external/logo1v2.svg"
+                        src="/external/immersiongg-logo.png"
                         className="champion-statistic-component-link-svg"
                     />
                 </div>

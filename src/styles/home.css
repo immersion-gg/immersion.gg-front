@@ -17,7 +17,7 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: var(--dl-color-success-300);
+  background: url('external/background-home.png')
 }
 .home-header-margin {
   flex: 0 0 auto;
@@ -39,7 +39,7 @@
   left: 0px;
   right: 0px;
   width: 456px;
-  height: 224px;
+  height: 300px;
   margin: auto;
   position: absolute;
 }

@@ -8,9 +8,9 @@ import IconSlotComponent from "../match-list/icon-slot-component";
 const IngameParticipantItemComponent = (props) => {
   const { participant } = props;
   const { championStatistic, summoner } = participant;
-  const summonerRank = summoner.rank[0];
+  const summonerRank = summoner.tiers.filter(it=>it.queueType==="RANKED_SOLO_5x5");
   const getSummonerTier = () => {
-    const {tier, rank, leaguePoints} = summonerRank;
+    const {tier, rank, leaguePoints} = summonerRank[0];
 
     if(!tier) return 'Unranked';
 
@@ -49,7 +49,7 @@ const IngameParticipantItemComponent = (props) => {
       </div>
       <div className="ingame-participant-item-component-data4">
         <img
-          src={getTierImageUrl(summonerRank.tier)}
+          src={getTierImageUrl(summonerRank[0].tier)}
           className="ingame-participant-item-component-silverpng"
         />
       </div>
@@ -60,7 +60,7 @@ const IngameParticipantItemComponent = (props) => {
       </div>
       <div className="ingame-participant-item-component-data6">
         <div className="ingame-participant-item-component-strong">
-          <span className="ingame-participant-item-component-text06">{`${championStatistic.winRate}%`}</span>
+          <span className="ingame-participant-item-component-text06"></span>
         </div>
         <span className="ingame-participant-item-component-text08">{`(${championStatistic.totalMatches} Played)`}</span>
         <div className="ingame-participant-item-component-divcss1tij1h9">

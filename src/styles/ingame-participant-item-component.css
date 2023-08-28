@@ -74,6 +74,17 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.ingame-participant-item-component-cell2 {
+  width: 147px;
+  height: 38.27000045776367px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(235, 238, 241, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
 .ingame-participant-item-component-data4 {
   display: flex;
   padding: 9.119999885559082px 6px 9.15000057220459px;
